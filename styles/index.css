@@ -1,9 +1,14 @@
+body {
+  overflow: hidden;
+}
+
 .full-page {
   max-height: 100vh;
   display: flex;
   flex-direction: column;
-  overflow: scroll;
-  scroll-snap-type: y; /* mandatory is bad-ish a11y */
+  overflow-y: scroll;
+  scroll-behavior: smooth; /* clicking navbar links, not on all browsers */
+  scroll-snap-type: y; /* mandatory is bad-ish a11y, not available on Brave */
 }
 
 .slide {
