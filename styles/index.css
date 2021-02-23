@@ -1,0 +1,19 @@
+.full-page {
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  min-width: 100vw;
+  scroll-snap-align: start;
+  background-color: antiquewhite;
+  border-bottom: 5px solid indigo;
+  padding-top: 5vh;
+  font-size: 5vh;
+}
