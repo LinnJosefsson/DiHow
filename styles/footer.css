@@ -1,0 +1,16 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    background-color: blueviolet;
+    z-index: 1;
+}
+
+.footer-left {
+
+
+}
+
+.footer-right {
+
+}
