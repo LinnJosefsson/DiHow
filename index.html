@@ -1,32 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/global.css">
-    <link rel="stylesheet" href="/styles/header.css">
-    <link rel="stylesheet" href="/styles/hero.css">
-    <link rel="stylesheet" href="/styles/index.css">
-    <link rel="stylesheet" href="/styles/signup.css">
-    <link rel="stylesheet" href="/styles/footer.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/global.css" />
+    <link rel="stylesheet" href="/styles/header.css" />
+    <link rel="stylesheet" href="/styles/hero.css" />
+    <link rel="stylesheet" href="/styles/index.css" />
+    <link rel="stylesheet" href="/styles/signup.css" />
+    <link rel="stylesheet" href="/styles/footer.css" />
     <title>DIHow</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <li></li>
-            <li></li>
-            <li></li>
-        </nav>
+      <!--
+            display none på faktiska meny-listan och
+            eventlistener på mobile meny/burger
+            fixa icon eller bygga burger?
+        -->
+      <nav class="navbar">
+        <li class="nav-item"></li>
+        <li class="nav-item"></li>
+        <li class="nav-item"></li>
+      </nav>
     </header>
 
     <main class="full-page">
-        <section class="slide s1">Hero</section>
-        <section class="slide s2">Welcome</section>
-        <section class="slide s3">Program</section>
-        <section class="slide s4">RSVP</section>
+      <section class="slide s1">
+        <picture>
+          <source
+            srcset="/assets/img/room_1.png"
+            media="(min-width: 800px)"
+            class="img"
+            alt=""
+          />
+          <source
+            srcset="/assets/img/room_1.png"
+            media="(min-width: 400px)"
+            class="img"
+            alt=""
+          />
+          <img src="/assets/img/room_1.png" class="img-hero" />
+        </picture>
+        <h1></h1>
+      </section>
+      <section class="slide s2">
+        <h1>Welcome</h1>
+        <picture>
+          <source
+            srcset="/img/xx.jpg"
+            media="(min-width: 800px)"
+            class="img"
+            alt=""
+          />
+          <source
+            srcset="img/xx.jpg"
+            media="(min-width: 400px)"
+            class="img"
+            alt=""
+          />
+          <img src="/img/xx.jpg" class="img" />
+        </picture>
+      </section>
+      <section class="slide s3">
+        <h1>Program</h1>
+        <picture>
+          <source
+            srcset="/img/xx.jpg"
+            media="(min-width: 800px)"
+            class="img"
+            alt=""
+          />
+          <source
+            srcset="img/xx.jpg"
+            media="(min-width: 400px)"
+            class="img"
+            alt=""
+          />
+          <img src="/img/xx.jpg" class="img" />
+        </picture>
+      </section>
+      <section class="slide s4">
+        <h1>RSVP</h1>
+        <picture>
+          <source
+            srcset="/img/xx.jpg"
+            media="(min-width: 800px)"
+            class="img"
+            alt=""
+          />
+          <source
+            srcset="img/xx.jpg"
+            media="(min-width: 400px)"
+            class="img"
+            alt=""
+          />
+          <img src="/img/xx.jpg" class="img" />
+        </picture>
+      </section>
     </main>
-    
-</body>
+    <footer>
+        <ul class="footer-left" >
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <ul class="footer-right" >
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </footer>
+  </body>
 </html>
