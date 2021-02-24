@@ -1,0 +1,24 @@
+body {
+  overflow: hidden;
+}
+
+.full-page {
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scroll-behavior: smooth; /* clicking navbar links, not on all browsers */
+  scroll-snap-type: y; /* mandatory is bad-ish a11y, not available on Brave */
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  min-width: 100vw;
+  scroll-snap-align: start;
+  background-color: antiquewhite;
+  border-bottom: 5px solid indigo;
+  padding-top: 5vh;
+  font-size: 5vh;
+}
