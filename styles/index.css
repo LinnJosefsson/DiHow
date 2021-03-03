@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 body {
@@ -12,14 +13,54 @@ body {
   scroll-snap-type: y; /* mandatory is bad-ish a11y, not available on Brave */
 }
 
-.slide {
+.hero-container {
   display: flex;
   justify-content: center;
-  height: 100vh;
+  flex-direction: column;
   min-width: 100vw;
   scroll-snap-align: start;
-  background-color: antiquewhite;
   border-bottom: 5px solid indigo;
+}
+
+.welcome {
+  margin-top: 100vh;
+  display: flex;
+  height: 100vh;
+}
+
+.heading-one {
+  text-align: center;
+  margin: 10px;
+}
+
+.layer-welcome {
+  display: flex;
+  flex-direction: row;
+  height: 700px;
+  width: 80%;
+  left: 0;
+  background-color: rgb(142, 161, 214);
+  opacity: 0.8;
+}
+
+.layer-welcome p {
+  display: flex;
+  margin: 30px;
+}
+
+.welcome-img {
+  max-width: 100%;
+}
+
+.program {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.rsvp {
+  height: 100vh;
+  display: flex;
 }
 
 h1 {
