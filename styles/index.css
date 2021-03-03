@@ -12,57 +12,90 @@ body {
   scroll-behavior: smooth; /* clicking navbar links, not on all browsers */
   scroll-snap-type: y; /* mandatory is bad-ish a11y, not available on Brave */
 }
-
-.hero-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  min-width: 100vw;
-  scroll-snap-align: start;
-  border-bottom: 5px solid indigo;
-}
-
+/* WELCOME */
 .welcome {
   margin-top: 100vh;
   display: flex;
   height: 100vh;
 }
 
-.heading-one {
-  text-align: center;
-  margin: 10px;
-}
-
-.layer-welcome {
+.welcome-container {
   display: flex;
-  flex-direction: row;
-  height: 700px;
-  width: 80%;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
   left: 0;
   background-color: rgb(142, 161, 214);
   opacity: 0.8;
 }
 
-.layer-welcome p {
-  display: flex;
-  margin: 30px;
+.paper-right {
+  max-width: 200px;
+  height: fit-content;
+  background-color: antiquewhite;
+  position: absolute;
+  top: 20%;
+  right: 0px;
+  padding: 1rem;
 }
 
-.welcome-img {
-  max-width: 100%;
-}
+/*
+.welcome-content {
+  font size etc
+}*/
 
+/* PROGRAM */
 .program {
   height: 100vh;
   display: flex;
-  flex-direction: column;
 }
 
-.rsvp {
-  height: 100vh;
-  display: flex;
+.program-container {
+  position: relative;
 }
+
+.program-content {
+  position: absolute;
+  top: 30%;
+  padding: 3rem;
+}
+
+/* RSVP */
+.rsvp {
+  display: flex;
+  height: 100vh;
+}
+
+.rsvp-container {
+  display: flex;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.paper-left {
+  max-width: 200px;
+  height: fit-content;
+  background-color: antiquewhite;
+  position: absolute;
+  top: 20%;
+  left: 0px;
+  padding: 1rem;
+}
+/*
+.rsvp-content {
+  font size etc
+}*/
 
 h1 {
   font-size: 5vh;
+  margin-bottom: 1rem;
+}
+
+/* FULL PAGE IMAGES */
+.fp-img {  
+  width: 100vw;
+  height: 100vh;
+  margin-top: 0;
+  object-fit: cover;
 }
