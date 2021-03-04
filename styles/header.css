@@ -1,7 +1,6 @@
 header {
   display: flex;
   width: 100%;
-  justify-content: flex-end;
   position: absolute;
   height: 100vh;
   margin: 0;
@@ -9,14 +8,13 @@ header {
 
 .hero-container {
   display: flex;
-  justify-content: center;
   flex-direction: column;
   min-width: 100vw;
   scroll-snap-align: start;
   /*border-bottom: 5px solid indigo;*/
 }
 
- .nav-bar {
+.nav-bar {
   display: flex;
   width: 100%;
   top: 0;
@@ -30,7 +28,7 @@ header {
 
 .nav-item {
   font-family: "Courier New", Courier, monospace;
-} 
+}
 
 .img-hero {
   width: 100vw;

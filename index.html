@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/styles/index.css" />
     <link rel="stylesheet" href="/styles/signup.css" />
     <link rel="stylesheet" href="/styles/footer.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>DIHow</title>
   </head>
   <body>
@@ -17,9 +18,9 @@
   <header>
       <nav class="nav-bar">
         <ul>
-         <li class="nav-item">sandra</li>
-        <li class="nav-item">linn</li>
-        <li class="nav-item">pizza</li>
+         <li class="nav-item"></li>
+        <li class="nav-item"></li>
+        <li class="nav-item"></li>
         </ul>
       </nav>
   
@@ -34,20 +35,24 @@
 
   <main>
   <section class="welcome">
+    
     <div class="welcome-container">
       <picture>
         <source srcset="/assets/img/nudu.png" media="(min-width: 800px)" />
         <source srcset="/assets/img/nudu.png" media="(min-width: 400px)"  />
         <img src="/assets/img/nudu.png" class="fp-img" alt="" />
       </picture>
+
       
       <div class="paper-right">
+        <div class data-aos="fade-up">
         <!--<img src="/assets/svg/paper_right.svg" class="paper-img" alt=""/> -->
         <div class="welcome-content">
           <h1>Welcome</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod itaque sunt velit neque, 
             quos expedita. Deleniti inventore ipsa odio, perspiciatis, velit perferendis quidem veniam 
             placeat dolorum aperiam voluptas sed minus.</p>
+        </div>
         </div>
       </div>
     </div>
@@ -61,16 +66,12 @@
           <img src="/assets/svg/paper.svg" class="fp-img" alt=""/>
         </picture>
         <div class="program-content">
+          <div class data-aos="fade-up">
           <h1>Program</h1>
-        <ul>
-          <li>lorem ipsum</li>
-          <li>lorem ipsum</li>
-          <li>lorem ipsum</li>
-          <li>lorem ipsum</li>
-          <li>lorem ipsum</li>
-          <li>lorem ipsum</li>
-          <li>lorem ipsum</li>
-        </ul>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod itaque sunt velit neque, 
+          quos expedita. Deleniti inventore ipsa odio, perspiciatis, velit perferendis quidem veniam 
+          placeat dolorum aperiam voluptas sed minus.</p>
+        </div>
         </div>
       </div> 
     </section>
@@ -94,10 +95,12 @@
           <div class="paper-left">
         <!-- paper left svg -->
             <div class="rsvp-content">
+              <div class data-aos="fade-up">
               <h1>RSVP</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod itaque sunt velit neque, 
                 quos expedita. Deleniti inventore ipsa odio, perspiciatis, velit perferendis quidem veniam 
                 placeat dolorum aperiam voluptas sed minus.</p>
+            </div>
             </div>
           </div>
       </div>
@@ -118,5 +121,9 @@
             <li>nåt mer?</li>
         </ul>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
