@@ -26,17 +26,18 @@ body {
   width: 100vw;
   left: 0;
   background-color: rgb(142, 161, 214);
-  opacity: 0.8;
 }
 
 .paper-right {
-  max-width: 200px;
-  height: fit-content;
+  max-width: 300px;
+  height: 400px;
   background-color: antiquewhite;
   position: absolute;
+  font-size: 16px;
   top: 20%;
   right: 0px;
   padding: 1rem;
+  opacity: 0.8;
 }
 
 /*
@@ -52,12 +53,22 @@ body {
 
 .program-container {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .program-content {
   position: absolute;
   top: 30%;
   padding: 3rem;
+}
+
+.program-content li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
 }
 
 /* RSVP */
@@ -74,10 +85,12 @@ body {
 }
 
 .paper-left {
-  max-width: 200px;
-  height: fit-content;
+  max-width: 300px;
+  height: 400px;
+  opacity: 0.8;
   background-color: antiquewhite;
   position: absolute;
+  font-size: 16px;
   top: 20%;
   left: 0px;
   padding: 1rem;
@@ -93,7 +106,7 @@ h1 {
 }
 
 /* FULL PAGE IMAGES */
-.fp-img {  
+.fp-img {
   width: 100vw;
   height: 100vh;
   margin-top: 0;
