@@ -2,7 +2,7 @@ footer {
   display: flex;
   justify-content: space-around;
   height: 80vh;
-  background-color: blueviolet;
+  background-color: #235c9d;
 }
 
 /* borde gå utan att göra två class?*/

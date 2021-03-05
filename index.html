@@ -10,32 +10,73 @@
     <link rel="stylesheet" href="/styles/index.css" />
     <link rel="stylesheet" href="/styles/signup.css" />
     <link rel="stylesheet" href="/styles/footer.css" />
+    <link rel="stylesheet" href="/styles/menu.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>DIHow</title>
   </head>
   <body>
   
-  <header>
-      <nav class="nav-bar">
+  
+     <!--  <nav class="nav-bar">
         <ul>
          <li class="nav-item"></li>
         <li class="nav-item"></li>
         <li class="nav-item"></li>
         </ul>
+      </nav> -->
+  <header>
+    <input id="menu" type="checkbox">
+    <label for="menu">
+      <nav class="menu">
+        <ul class="menu-list">
+          <li class="menu-list-item">
+            <a href="#welcome">Hem</a>
+          </li>
+          <li class="menu-list-item">
+            <a href="#program">Program</a>
+          </li>
+          <li class="menu-list-item">
+            <a href="#rsvp">RSVP</a>
+          </li>
+          <li class="menu-list-item">
+            <a href="/">typ logga eller nåt bös?</a>
+          </li>
+        </ul>
+
       </nav>
+      <button aria-label="Open menu" class="hamburger">
+        
+        <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+          <g clip-path="url(#clip0)" fill="#fff">
+            <path
+              d="M20 40a20 20 0 1120-20 20.022 20.022 0 01-20 20zm0-38.75A18.75 18.75 0 1038.75 20 18.772 18.772 0 0020 1.25z" />
+            <path
+              d="M29.688 13.75H10.313a.625.625 0 110-1.25h19.374a.624.624 0 110 1.25zM29.688 20.625H10.313a.625.625 0 110-1.25h19.374a.624.624 0 110 1.25zM29.688 27.5H10.313a.625.625 0 110-1.25h19.374a.624.624 0 110 1.25z" />
+          </g>
+          <defs>
+            <clipPath id="clip0">
+              <path fill="#fff" d="M0 0h40v40H0z" />
+            </clipPath>
+          </defs>
+        </svg>
+        </div>
+      </button>
+    </label>
+  </header>
+
   
       <section class="hero-container">
         <picture>
           <source srcset="/assets/img/högrum1.png" media="(min-width: 800px)" class="img-hero" />
-          <source srcset="/assets/img/högrum1.png" media="(min-width: 400px)" class="img-hero" />
-          <img src="/assets/img/högrum1.png" class="img-hero" alt="" />
+          <source srcset="/assets/img/room1_mobile.png" media="(min-width: 400px)" class="img-hero" />
+          <img src="/assets/img/room1_mobile.png" class="img-hero" alt="" />
         </picture>
       </section>
-    </header>
+    
 
   <main>
   <section class="welcome">
-    
+    <a id="welcome"></a>
     <div class="welcome-container">
       <picture>
         <source srcset="/assets/img/nudu.png" media="(min-width: 800px)" />
@@ -46,8 +87,11 @@
       
       <div class="paper-right">
         <div class data-aos="fade-up">
+          
         <!--<img src="/assets/svg/paper_right.svg" class="paper-img" alt=""/> -->
+        <!-- <img src="assets/img/hammer.svg" width="100px;" class="test" /> -->
         <div class="welcome-content">
+          
           <h1>Welcome</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod itaque sunt velit neque, 
             quos expedita. Deleniti inventore ipsa odio, perspiciatis, velit perferendis quidem veniam 
@@ -59,6 +103,7 @@
   </section>
 
     <section class="program">
+      <a id="program"></a>
       <div class="program-container">
         <picture>
           <source srcset="/assets/svg/paper.svg" media="(min-width: 800px)" class="img"/>
@@ -78,6 +123,7 @@
         
         
     <section class="rsvp">
+      <a id="rsvp"></a>
       <div class="rsvp-container">
         <picture>
           <source
