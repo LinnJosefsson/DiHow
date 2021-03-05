@@ -5,6 +5,7 @@
         "dev": "parcel index.html"
     },
     "devDependencies": {
-        "parcel": "^2.0.0-beta.1"
+        "parcel": "^2.0.0-beta.1",
+        "prettier": "^2.2.1"
     }
 }
