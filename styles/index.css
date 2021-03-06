@@ -12,30 +12,37 @@ body {
   scroll-snap-type: y; /* mandatory is bad-ish a11y, not available on Brave */
 }
 /* WELCOME */
-.welcome {
+/* .welcome {
   display: flex;
   height: 100vh;
-}
+} */
 
-.welcome-container {
+/* fd welcome-container */
+.welcome {
   display: flex;
   position: relative;
   height: 100vh;
   width: 100vw;
-  left: 0;
+  /* left: 0; */
 }
 
 .paper-right {
+  display: flex;
+  align-items: center;
+  padding: 10px;
   max-width: 100%;
-  height: 400px;
-  background-color: #235c9d;
-  color: white;
+  /* height: 500px; */ /* funkar ej?? */
   position: absolute;
+  z-index: 1;
   font-size: 16px;
   top: 15%;
   right: 0px;
-  padding: 1rem;
   opacity: 0.8;
+}
+
+/*denna class funkar inte riktigt, */
+.paper-right img {
+  position: absolute;
 }
 
 /*
@@ -103,6 +110,11 @@ body {
 h1 {
   font-size: 5vh;
   margin-bottom: 1rem;
+  color: #235c9d;
+}
+
+p {
+  color: black;
 }
 
 /* FULL PAGE IMAGES */
