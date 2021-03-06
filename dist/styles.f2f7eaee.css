@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  /*max-height: 100vh;*/
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scroll-behavior: smooth; /* clicking navbar links, not on all browsers */
+  scroll-snap-type: y; /* mandatory is bad-ish a11y, not available on Brave */
+}
+/* WELCOME */
+.welcome {
+  display: flex;
+  height: 100vh;
+}
+
+.welcome-container {
+  display: flex;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  left: 0;
+}
+
+.paper-right {
+  max-width: 100%;
+  height: 400px;
+  background-color: #235c9d;
+  color: white;
+  position: absolute;
+  font-size: 16px;
+  top: 15%;
+  right: 0px;
+  padding: 1rem;
+  opacity: 0.8;
+}
+
+/*
+.welcome-content {
+  font size etc
+}*/
+
+/* PROGRAM */
+.program {
+  height: 100vh;
+  display: flex;
+}
+
+.program-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.program-content {
+  position: absolute;
+  top: 30%;
+  padding: 3rem;
+}
+
+.program-content li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+/* RSVP */
+.rsvp {
+  display: flex;
+  height: 100vh;
+}
+
+.rsvp-container {
+  display: flex;
+  position: relative;
+
+  height: 100vh;
+  width: 100vw;
+}
+
+.paper-left {
+  max-width: 300px;
+  height: 400px;
+  opacity: 0.8;
+  background-color: #235c9d;
+  color: white;
+  position: absolute;
+  font-size: 16px;
+  top: 20%;
+  left: 0px;
+  padding: 1rem;
+}
+/*
+.rsvp-content {
+  font size etc
+}*/
+
+h1 {
+  font-size: 5vh;
+  margin-bottom: 1rem;
+}
+
+/* FULL PAGE IMAGES */
+.fp-img {
+  width: 100vw;
+  height: 100vh;
+  margin-top: 0;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=styles.f2f7eaee.css.map */

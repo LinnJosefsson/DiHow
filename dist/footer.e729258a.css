@@ -1,0 +1,23 @@
+footer {
+  display: flex;
+  justify-content: space-around;
+  height: 80vh;
+  background-color: #235c9d;
+}
+
+/* borde gå utan att göra två class?*/
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.footer-right {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+/*# sourceMappingURL=footer.e729258a.css.map */
