@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .img-hero {
   width: 100vw;
   height: 100vh;
@@ -10,5 +15,4 @@
   flex-direction: column;
   min-width: 100vw;
   scroll-snap-align: start;
-  /*border-bottom: 5px solid indigo;*/
 }
