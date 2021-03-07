@@ -26,8 +26,8 @@
 header {
   position: fixed;
   top: 90vh;
-  margin-right: 55%;
-  margin-left: 45%;
+  margin-right: 50%;
+  margin-left: 50%;
   height: 50px;
   z-index: 10;
 }

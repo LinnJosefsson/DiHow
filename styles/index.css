@@ -20,29 +20,52 @@ body {
 /* fd welcome-container */
 .welcome {
   display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  height: 100vh;
+  /* height: 100vh; */
   width: 100vw;
+
   /* left: 0; */
 }
 
 .paper-right {
   display: flex;
-  align-items: center;
-  padding: 10px;
+  justify-content: flex-end;
   max-width: 100%;
   /* height: 500px; */ /* funkar ej?? */
   position: absolute;
-  z-index: 1;
+  /* z-index: 1; */
   font-size: 16px;
-  top: 15%;
-  right: 0px;
+  /*  top: 15%; */
+  /* right: 0px; */
   opacity: 0.8;
 }
 
-/*denna class funkar inte riktigt, */
+.welcome-text {
+  display: flex;
+  width: 90%;
+  padding: 30px;
+  align-items: flex-end;
+  flex-direction: column;
+}
+/* .aos-init .aos-animate {
+  display: flex;
+  align-items: flex-end;
+  right: 10px;
+} */
+
 .paper-right img {
+  display: flex;
   position: absolute;
+}
+
+/* FULL PAGE IMAGES */
+.fp-img {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  object-fit: cover;
 }
 
 /*
@@ -115,12 +138,4 @@ h1 {
 
 p {
   color: black;
-}
-
-/* FULL PAGE IMAGES */
-.fp-img {
-  width: 100vw;
-  height: 100vh;
-  margin-top: 0;
-  object-fit: cover;
 }
