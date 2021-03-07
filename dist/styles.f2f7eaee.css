@@ -4,7 +4,7 @@
 }
 
 body {
-  /*max-height: 100vh;*/
+  max-height: 100vh;
   display: flex;
   flex-direction: column;
   overflow-y: scroll;
@@ -12,30 +12,64 @@ body {
   scroll-snap-type: y; /* mandatory is bad-ish a11y, not available on Brave */
 }
 /* WELCOME */
-.welcome {
+/* .welcome {
   display: flex;
   height: 100vh;
-}
+} */
 
-.welcome-container {
+/* fd welcome-container */
+.container {
   display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  height: 100vh;
+  /* height: 100vh; */
   width: 100vw;
-  left: 0;
+
+  /* left: 0; */
 }
 
-.paper-right {
+.paper {
+  display: flex;
+  justify-content: flex-end;
   max-width: 100%;
-  height: 400px;
-  background-color: #235c9d;
-  color: white;
+  /* height: 500px; */
   position: absolute;
+  /* z-index: 1; */
   font-size: 16px;
-  top: 15%;
-  right: 0px;
-  padding: 1rem;
+  /*  top: 15%; */
+  /* right: 0px; */
   opacity: 0.8;
+}
+
+.container-text {
+  display: flex;
+  width: 90%;
+  padding: 30px;
+  align-items: flex-end;
+  flex-direction: column;
+}
+/* .aos-init .aos-animate {
+  display: flex;
+  align-items: flex-end;
+  right: 10px;
+} */
+
+.paper img {
+  display: flex;
+  position: absolute;
+  justify-content: flex-end;
+  /*   max-height: 400px;
+  max-width: 90%; */
+}
+
+/* bytte namn, föredetta fp-img */
+.room-img {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  bottom: 0;
+  object-fit: cover;
 }
 
 /*
@@ -83,34 +117,21 @@ body {
   width: 100vw;
 }
 
-.paper-left {
-  max-width: 300px;
-  height: 400px;
-  opacity: 0.8;
-  background-color: #235c9d;
-  color: white;
+/* .paper-left {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+  height: 500px;
   position: absolute;
+  z-index: 1;
   font-size: 16px;
-  top: 20%;
-  left: 0px;
-  padding: 1rem;
-}
+   top: 15%;
+  right: 0px;
+  opacity: 0.8;
+} */
 /*
 .rsvp-content {
   font size etc
 }*/
-
-h1 {
-  font-size: 5vh;
-  margin-bottom: 1rem;
-}
-
-/* FULL PAGE IMAGES */
-.fp-img {
-  width: 100vw;
-  height: 100vh;
-  margin-top: 0;
-  object-fit: cover;
-}
 
 /*# sourceMappingURL=styles.f2f7eaee.css.map */

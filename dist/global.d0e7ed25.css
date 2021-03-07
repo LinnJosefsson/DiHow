@@ -5,6 +5,16 @@
   /*scroll-behavior: smooth;*/
 }
 
+h1 {
+  font-size: 5vh;
+  margin-bottom: 1rem;
+  color: #235c9d;
+}
+
+p {
+  color: black;
+}
+
 /*
 :root {
     --header-bg: ;
