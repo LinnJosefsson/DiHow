@@ -107,17 +107,21 @@ main {
 }
 
 /* RSVP */
-.rsvp {
+.form-container{
   display: flex;
-  height: 100vh;
+  width: 90%;
+  padding: 30px;
+  align-items: flex-end;
+  flex-direction: column;
 }
 
-.rsvp-container {
-  display: flex;
-  position: relative;
+.form-container h1 {
+  margin: 0;
+}
 
-  height: 100vh;
-  width: 100vw;
+.rsvp-form {
+  display: flex;
+  flex-direction: column;
 }
 
 /* .paper-left {

@@ -152,10 +152,6 @@
           <source srcset="/assets/img/room-3/room3_mobile_800.png" media="(min-width: 700px)" />
           <source srcset="/assets/img/room-3/room3_mobile_480.png" media="(min-width: 400px)"  />
           <img src="/assets/img/room-3/room3_mobile_370.png" class="room-img" alt="" />
-
-        <!--<source srcset="/assets/img/room2.png" media="(min-width: 800px)" />
-        <source srcset="/assets/img/room2.png" media="(min-width: 400px)" />
-        <img src="assets/img/room2.png" class="room-img" alt="" /> -->
       </picture>
     
     
@@ -167,13 +163,22 @@
         <!-- <img src="assets/img/hammer.svg" width="100px;" class="test" /> -->
         <!--  <div class="welcome-content"> -->
     
-        <div class="container-text">
+        <div class="form-container">
           <div class data-aos="fade-up">
             <h1>RSVP</h1>
-    
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod itaque sunt velit neque,
-              quos expedita. Deleniti inventore ipsa odio, perspiciatis, velit perferendis quidem veniam
-              placeat dolorum aperiam voluptas sed minus.</p>
+            <p>Anmäl dig nedan för att säkra din plats</p>
+            <form action="xx" class="rsvp-form">
+              <label for="name">För- och efternamn</label>
+              <input type="text" > <!-- namn finns redan via jquery -->
+                <br>
+              <label for="email">Email</label>
+              <input type="email" required placeholder="lisa.larsson@gmail.com">
+                <br>
+              <label for="phonenumber">Mobilnummer (om du vill ha sms-uppdateringar)</label>
+              <input type="number" placeholder="Ange telefonnummer utan streck och mellanslag">
+                <br>
+              <button>Boka</button>
+            </form>
           </div>
         </div>
       </div>
