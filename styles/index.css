@@ -1,8 +1,3 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-}
-
 body {
   max-height: 100vh;
   display: flex;
@@ -16,6 +11,12 @@ body {
   display: flex;
   height: 100vh;
 } */
+
+/* vill försöka ge sidan en max-width för stora skärmar så bilder inte blir
+blurriga. Behöver sätta max-width på en/flera? parent-element och width i % på children */
+main {
+  max-width: 500px;
+}
 
 /* fd welcome-container */
 .container {
