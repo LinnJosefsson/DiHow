@@ -26,8 +26,8 @@
 header {
   position: fixed;
   top: 90vh;
-  margin-right: 55%; /*en jävla nödlösning*/
-  margin-left: 45%;
+  margin-right: 58%; /*en jävla nödlösning*/
+  margin-left: 42%;
   height: 50px;
   z-index: 10;
 }

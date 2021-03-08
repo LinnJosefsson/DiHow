@@ -1,8 +1,26 @@
 footer {
   display: flex;
-  justify-content: space-around;
-  height: 80vh;
-  background-color: #235c9d;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 40vh;
+  background-color: #b4c1c9;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding: ;
+}
+
+footer h1 {
+  font-size: 3rem;
+}
+
+.copyright p {
+  font-size: 0.8rem;
 }
 
 /* borde gå utan att göra två class?*/

@@ -25,7 +25,8 @@ h1 {
 p {
   font-family: "Lato", 'Gill Sans', Calibri, sans-serif;
   color: black;
-  font-size: ;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 /*
