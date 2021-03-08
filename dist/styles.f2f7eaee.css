@@ -99,6 +99,7 @@ main {
 }
 
 .program-content li {
+  font-family: "Lato", 'Gill Sans', Calibri, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;

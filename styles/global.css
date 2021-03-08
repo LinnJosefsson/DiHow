@@ -5,14 +5,27 @@
   /*scroll-behavior: smooth;*/
 }
 
+@font-face {
+  font-family: "Bebas Neue";
+  src: url('/assets/fonts/BebasNeue-Regular.woff');
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url('/assets/fonts/Lato-Regular.woff');
+}
+
 h1 {
-  font-size: 5vh;
+  font-family: "Bebas Neue";
+  font-size: 9vh;
   margin-bottom: 1rem;
   color: #235c9d;
 }
 
 p {
+  font-family: "Lato", 'Gill Sans', Calibri, sans-serif;
   color: black;
+  font-size: ;
 }
 
 /*
