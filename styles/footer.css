@@ -15,6 +15,10 @@ footer {
   padding: ;
 }
 
+footer ul {
+  margin: 1rem;
+}
+
 footer h1 {
   font-size: 3rem;
 }
