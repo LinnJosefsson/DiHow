@@ -13,6 +13,7 @@
 .hero-container {
   display: flex;
   flex-direction: column;
-  min-width: 100vw;
+  width: 100vw;
   scroll-snap-align: start;
+  height: 100vh;
 }

@@ -7,12 +7,12 @@
 
 @font-face {
   font-family: "Bebas Neue";
-  src: url('/assets/fonts/BebasNeue-Regular.woff');
+  src: url("/assets/fonts/BebasNeue-Regular.woff");
 }
 
 @font-face {
   font-family: "Lato";
-  src: url('/assets/fonts/Lato-Regular.woff');
+  src: url("/assets/fonts/Lato-Regular.woff");
 }
 
 h1 {
@@ -23,7 +23,7 @@ h1 {
 }
 
 p {
-  font-family: "Lato", 'Gill Sans', Calibri, sans-serif;
+  font-family: "Lato", "Gill Sans", Calibri, sans-serif;
   color: black;
   font-size: 16px;
   line-height: 20px;
