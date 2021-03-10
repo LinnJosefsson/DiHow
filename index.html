@@ -74,16 +74,16 @@
     <section class="hero-container">
       <picture>
         <source
-          srcset="/assets/img/högrum1.png"
+          srcset="/assets/img/room-1/room1_1020.png"
           media="(min-width: 800px)"
           class="img-hero"
         />
         <source
-          srcset="/assets/img/room1_mobile.png"
+          srcset="/assets/img/room-1/room1_mobile_480.png"
           media="(min-width: 400px)"
           class="img-hero"
         />
-        <img src="/assets/img/room1_mobile.png" class="img-hero" alt="" />
+        <img src="/assets/img/room-1/room1_mobile_370.png" class="img-hero" alt="" />
       </picture>
     </section>
 
@@ -141,36 +141,34 @@
       <!-- PROGRAM SECTION -->
       <a id="program"></a>
       <section class="program">
-        <div class="program-container">
-          <picture>
-            <source
-              srcset="/assets/svg/paper.svg"
-              media="(min-width: 800px)"
-              class="room-img"
-            />
-            <source
-              srcset="/assets/svg/paper.svg"
-              media="(min-width: 400px)"
-              class="room-img"
-            />
-            <img src="/assets/svg/paper.svg" class="room-img" alt="" />
-          </picture>
-          <div class="program-content">
-            <div class data-aos="fade-up">
-              <h1>Program</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-                itaque sunt velit neque, quos expedita.
-              </p>
-              <ul class="program-list">
-                <li>1. korv med bröd</li>
-                <li>2. fiskdamm</li>
-                <li>3. fri lek</li>
-                <li>4. repetera steg 1-3</li>
-              </ul>
+          <div class="program-container">
+              <picture>
+                <source
+                  srcset="/assets/svg/paper.svg"
+                  media="(min-width: 800px)"
+                  class="room-img"
+                />
+                <source
+                  srcset="/assets/svg/paper.svg"
+                  media="(min-width: 400px)"
+                  class="room-img"
+                />
+                <img src="/assets/svg/paper.svg" class="room-img" alt="" />
+              </picture>
+              <div class="program-content">
+                <div class data-aos="fade-up">
+                  <h1>Program</h1>
+                  <h2> Några av de många intressanta programpunkter ni kan ta del av under dagen </h2>
+                  <br>
+                  <ul class="program-list">
+                    <li>10.00  Prova på att hantera olika verktyg </li>
+                    <li>13-18  Få hjälp av professionella inredare att piffa upp där hemma</li>
+                    <li>14.00  Prova på att hantera olika verktyg</li>
+                    <li>16.00  Föreläsning: Välja Hållbara Material</li>
+                  </ul>
+                </div>
             </div>
           </div>
-        </div>
       </section>
 
       <!-- RSVP SECTION -->
@@ -223,7 +221,7 @@
                 <input type="email" required placeholder="lisa.larsson@gmail.com" class="f-email"/>
                 
                 <label for="phonenumber">Mobilnummer (valfritt)</label>
-                <input type="number" placeholder="Endast siffror"/>
+                <input type="text" placeholder="Endast siffror"/>
                 
                 <button class="f-btn">Boka</button>
               </form>
