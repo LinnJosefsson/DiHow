@@ -203,8 +203,8 @@
 
         <div class="paper-left">
           
-          <img
-            src="/assets/svg/the-paper-left.svg"
+          <img 
+            src="/assets/svg/paper_left_mobile.svg"
             alt="torn paper"
           />
 
@@ -212,22 +212,21 @@
           <!-- <img src="assets/img/hammer.svg" width="100px;" class="test" /> -->
           <!--  <div class="welcome-content"> -->
 
-          <div class="container">
+          <div class="form-container">
             <div class data-aos="fade-up">
               <h1>RSVP</h1>
               <p>Anmäl dig nedan för att säkra din plats</p>
               <form action="xx" class="rsvp-form">
                 <label for="name">För- och efternamn</label>
-                <input type="text" />
-                <!-- namn finns redan via jquery -->
-                <br />
+                <input type="text" placeholder="Lisa Larsson"/>
+                <!-- namn redan finnas via jquery?? -->
+                
                 <label for="email">Email</label>
                 <input type="email" required placeholder="lisa.larsson@gmail.com"/>
-                <br />
-                <label for="phonenumber">Mobilnummer (om du vill ha sms-uppdateringar)</label>
-              
-                <input type="number" placeholder="Ange telefonnummer utan streck och mellanslag"/>
-                <br />
+                
+                <label for="phonenumber">Mobilnummer (valfritt)</label>
+                <input type="number" placeholder="Endast siffror"/>
+                
                 <button>Boka</button>
               </form>
             </div>

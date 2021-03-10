@@ -147,12 +147,12 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
 
 /* RSVP (form styling in form.css) */
 
-#paper-left {
+.paper-left {
   display: flex;
   justify-content: flex-start;
   text-align: center;
   max-width: 100%;
-  height: 500px;
+  height: 400px;
   position: absolute;
   overflow: hidden;
   font-size: 16px;
