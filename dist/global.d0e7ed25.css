@@ -5,35 +5,38 @@
   /*scroll-behavior: smooth;*/
 }
 
+html {
+  width: 100vw;
+  
+}
+
 @font-face {
   font-family: "Bebas Neue";
-  src: url('BebasNeue-Regular.ec27f9e8.woff');
+  src: url("BebasNeue-Regular.ec27f9e8.woff");
 }
 
 @font-face {
   font-family: "Lato";
-  src: url('Lato-Regular.0d85e524.woff');
+  src: url("Lato-Regular.0d85e524.woff");
 }
 
 h1 {
   font-family: "Bebas Neue";
   font-size: 9vh;
   margin-bottom: 1rem;
-  color: #235c9d;
+  color: var(--ikea-blue);
 }
 
 p {
-  font-family: "Lato", 'Gill Sans', Calibri, sans-serif;
+  font-family: "Lato", "Gill Sans", Calibri, sans-serif;
   color: black;
   font-size: 16px;
   line-height: 20px;
 }
 
-/*
+
 :root {
-    --header-bg: ;
-    --body-bg: ;
-    --font: ;
-} */
+    --ikea-blue: rgb(35, 91, 157);
+} 
 
 /*# sourceMappingURL=global.d0e7ed25.css.map */

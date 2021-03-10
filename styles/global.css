@@ -5,6 +5,11 @@
   /*scroll-behavior: smooth;*/
 }
 
+html {
+  width: 100vw;
+  
+}
+
 @font-face {
   font-family: "Bebas Neue";
   src: url("/assets/fonts/BebasNeue-Regular.woff");
@@ -19,7 +24,7 @@ h1 {
   font-family: "Bebas Neue";
   font-size: 9vh;
   margin-bottom: 1rem;
-  color: #235c9d;
+  color: var(--ikea-blue);
 }
 
 p {
@@ -29,9 +34,7 @@ p {
   line-height: 20px;
 }
 
-/*
+
 :root {
-    --header-bg: ;
-    --body-bg: ;
-    --font: ;
-} */
+    --ikea-blue: rgb(35, 91, 157);
+} 

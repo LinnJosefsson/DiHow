@@ -25,12 +25,15 @@
 
 header {
   position: fixed;
-  top: 90vh;
-  margin-right: 58%; /*en jävla nödlösning*/
-  margin-left: 42%;
-  height: 50px;
+  bottom: 0px;
+  /* margin-right: 58%; /* en jävla nödlösning */
+  /* margin-left: 50%; */
+  height: 4rem;
   z-index: 10;
-}
+  background-color:var(--ikea-blue);
+  opacity: 0.7;
+  width: 100%;
+}    
 
 .hamburger {
   width: 50px;
@@ -38,8 +41,9 @@ header {
   background: none;
   border: 0;
   position: absolute;
-  /* right: 0; */
-  z-index: 4;
+  top: 8%;
+  right: 44%;
+  z-index: 11;
   pointer-events: none;
 }
 
@@ -61,6 +65,30 @@ header label {
   height: 50px;
   display: block;
 }
+
+@media screen and (min-width: 800px) {
+  .header {
+    position: fixed;
+    top: 10vh;
+    right: 24px;
+    margin: 0;
+  }
+
+  header input {
+  opacity: 0;
+  z-index: 0;
+  visibility: hidden;
+  position: absolute;
+}
+
+header label {
+  width: 50px;
+  height: 50px;
+  display: block;
+}
+}
+
+ 
 
 /* .nav-item {
   font-family: "Courier New", Courier, monospace;
