@@ -1,8 +1,10 @@
 body {
   max-height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   overflow-y: scroll;
+  overflow-x: hidden;
   scroll-behavior: smooth; /* clicking navbar links, not on all browsers */
   scroll-snap-type: y; /* mandatory is bad-ish a11y, not available on Brave */
 }
@@ -14,9 +16,9 @@ body {
 
 /* vill försöka ge sidan en max-width för stora skärmar så bilder inte blir
 blurriga. Behöver sätta max-width på en/flera? parent-element och width i % på children */
-main {
+/* main {
   max-width: 500px;
-}
+} */
 
 /* fd welcome-container */
 .container {
@@ -24,23 +26,49 @@ main {
   justify-content: center;
   align-items: center;
   position: relative;
-  /* height: 100vh; */
   width: 100vw;
-
-  /* left: 0; */
+  overflow: hidden;
 }
 
 .paper {
   display: flex;
   justify-content: flex-end;
+  text-align: center;
   max-width: 100%;
-  /* height: 500px; */
+  height: 500px;
+  right: 0;
   position: absolute;
+  overflow: hidden;
   /* z-index: 1; */
   font-size: 16px;
   /*  top: 15%; */
   /* right: 0px; */
   opacity: 0.8;
+}
+
+.paper-left {
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  max-width: 100%;
+  height: 500px;
+  left: 0;
+  position: absolute;
+  overflow: hidden;
+  /* z-index: 1; */
+  font-size: 16px;
+  /*  top: 15%; */
+  /* right: 0px; */
+  opacity: 0.8;
+}
+
+.paper-left img {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  /*left: 0*/
+  /*   max-height: 400px;
+  max-width: 90%; */
 }
 
 .container-text {
@@ -60,7 +88,6 @@ main {
 .paper img {
   display: flex;
   position: absolute;
-  justify-content: flex-end;
   /*   max-height: 400px;
   max-width: 90%; */
 }
@@ -74,6 +101,11 @@ main {
   object-fit: cover;
 }
 
+.room-3 {
+  height: 100vh;
+  width: 100%;
+}
+
 /*
 .welcome-content {
   font size etc
@@ -82,7 +114,11 @@ main {
 /* PROGRAM */
 .program {
   height: 100vh;
+  margin-top: -60px;
+  position: relative;
+  z-index: 9;
   display: flex;
+  margin-bottom: -55px;
 }
 
 .program-container {
@@ -90,6 +126,9 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  width: 100vw;
+  overflow: hidden;
 }
 
 .program-content {
@@ -99,39 +138,28 @@ main {
 }
 
 .program-content li {
-  font-family: "Lato", 'Gill Sans', Calibri, sans-serif;
+  font-family: "Lato", "Gill Sans", Calibri, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   list-style-type: none;
 }
 
-/* RSVP */
-.rsvp {
-  display: flex;
-  height: 100vh;
-}
+/* RSVP (form styling in form.css) */
 
-.rsvp-container {
-  display: flex;
-  position: relative;
-
-  height: 100vh;
-  width: 100vw;
-}
-
-/* .paper-left {
+#paper-left {
   display: flex;
   justify-content: flex-start;
+  text-align: center;
   max-width: 100%;
   height: 500px;
   position: absolute;
-  z-index: 1;
+  overflow: hidden;
   font-size: 16px;
-   top: 15%;
-  right: 0px;
+  top: 15%;
+  left: 0px;
   opacity: 0.8;
-} */
+}
 /*
 .rsvp-content {
   font size etc

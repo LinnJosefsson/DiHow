@@ -1,9 +1,23 @@
-/* @media screen and (min-width: 800px) {
+ /* @media screen and (min-width: 800px) {
   .header {
-    top: 24px;
+    position: fixed;
+    top: 0px;
     right: 24px;
     margin: 0;
   }
+
+  header input {
+  opacity: 0;
+  z-index: 0;
+  visibility: hidden;
+  position: absolute;
 }
- */
- 
+
+header label {
+  width: 50px;
+  height: 50px;
+  display: block;
+}
+}
+
+  */

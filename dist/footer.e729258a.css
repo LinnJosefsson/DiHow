@@ -1,19 +1,29 @@
 footer {
   display: flex;
   flex-direction: column;
-  position: absolute;
-  min-height: 50vh;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 40vh;
   background-color: #b4c1c9;
   font-family: "Lato", Arial, Helvetica, sans-serif;
 }
 
 .footer-info {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-top: 2rem;
 }
 
-.copyright {
-  position:relative;
+footer ul {
+  margin: 1rem;
+}
+
+footer h1 {
+  font-size: 3rem;
+}
+
+.copyright p {
+  font-size: 0.8rem;
 }
 
 /* borde gå utan att göra två class?*/
