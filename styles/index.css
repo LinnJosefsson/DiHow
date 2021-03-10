@@ -43,7 +43,7 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
   font-size: 16px;
   /*  top: 15%; */
   /* right: 0px; */
-  opacity: 0.8;
+  
 }
 
 .container-text {
@@ -66,6 +66,7 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
   display: flex;
   position: absolute;
   justify-content: flex-end;
+  opacity: 0.8;
   /*   max-height: 400px;
   max-width: 90%; */
 }
@@ -102,8 +103,10 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
 .program-container {
   position: relative;
   display: flex;
+
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .program-content {
