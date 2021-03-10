@@ -1,4 +1,4 @@
-.form-container {
+/* .form-container {
   display: flex;
   width: 90%;
   padding: 30px;
@@ -10,8 +10,11 @@
 .form-container h1 {
   margin: 0;
 }
-
+*/
 .rsvp-form {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  margin: 0;
+  padding-bottom: 200px;
 }
