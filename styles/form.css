@@ -46,7 +46,7 @@
   padding: 2px;
 }
 
-.rsvp-form button {
+.f-btn {
   margin-top: 1rem;
   background-color: var(--ikea-blue);
   color: white;

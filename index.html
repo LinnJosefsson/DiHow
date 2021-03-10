@@ -200,9 +200,7 @@
           />
         </picture>
 
-
-        <div class="paper-left">
-          
+        <div class="paper-left">          
           <img 
             src="/assets/svg/paper_left_mobile.svg"
             alt="torn paper"
@@ -214,20 +212,20 @@
 
           <div class="form-container">
             <div class data-aos="fade-up">
-              <h1>RSVP</h1>
-              <p>Anmäl dig nedan för att säkra din plats</p>
-              <form action="xx" class="rsvp-form">
+              <h1 id="msg1">RSVP</h1>
+              <p id="msg2">Anmäl dig nedan för att säkra din plats</p>
+              <form class="rsvp-form">
                 <label for="name">För- och efternamn</label>
-                <input type="text" placeholder="Lisa Larsson"/>
+                <input type="text" placeholder="Lisa Larsson" class="f-name"/>
                 <!-- namn redan finnas via jquery?? -->
                 
                 <label for="email">Email</label>
-                <input type="email" required placeholder="lisa.larsson@gmail.com"/>
+                <input type="email" required placeholder="lisa.larsson@gmail.com" class="f-email"/>
                 
                 <label for="phonenumber">Mobilnummer (valfritt)</label>
                 <input type="number" placeholder="Endast siffror"/>
                 
-                <button>Boka</button>
+                <button class="f-btn">Boka</button>
               </form>
             </div>
           </div>
@@ -236,31 +234,8 @@
         <!--    </div> -->
         <!--   </div> -->
       </section>
-
-      <!-- 
-    <section class="rsvp">
-      <a id="rsvp"></a>
-      <div class="rsvp-container">
-        <picture>
-          <source srcset="/assets/img/room-3/room3_1020.png" media="(min-width: 900px)" />
-          <source srcset="/assets/img/room-3/room3_mobile_800.png" media="(min-width: 700px)" />
-          <source srcset="/assets/img/room-3/room3_mobile_480.png" media="(min-width: 400px)"  />
-        <img src="/assets/img/room-3/room3_mobile_370.png" class="room-img" alt="" />
-          </picture>
-          <div class="paper-left">
-            <div class="rsvp-content">
-              <div class data-aos="fade-up">
-              <h1>RSVP</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod itaque sunt velit neque, 
-                quos expedita. Deleniti inventore ipsa odio, perspiciatis, velit perferendis quidem veniam 
-                placeat dolorum aperiam voluptas sed minus.</p>
-            </div>
-            </div>
-          </div>
-      </div>
-      </section>
- -->
     </main>
+
     <a id="info"></a>
     <footer>
       <div class="footer-info">
@@ -282,8 +257,7 @@
       </div>
     </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+    <script> AOS.init(); </script>
+     <script src="app.js"></script>
   </body>
 </html>
