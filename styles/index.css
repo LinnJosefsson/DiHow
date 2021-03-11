@@ -116,11 +116,11 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
 .program {
   height: 100vh;
   width: 100vw;
-  margin-top: -64px;
+  margin-top: -67px;
   position: relative;
   z-index: 9;
   display: flex;
-  margin-bottom: -64px;
+  margin-bottom: -67px;
 }
 
 .program-container {

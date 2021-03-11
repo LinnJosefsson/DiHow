@@ -30,10 +30,10 @@ header {
   /* margin-left: 50%; */
   height: 4rem;
   z-index: 10;
-  background-color:var(--ikea-blue);
+  background-color: var(--ikea-blue);
   opacity: 0.7;
   width: 100%;
-}    
+}
 
 .hamburger {
   width: 50px;
@@ -61,7 +61,7 @@ header input {
 }
 
 header label {
-  width: 50px;
+  width: 100%;
   height: 50px;
   display: block;
 }
@@ -75,20 +75,18 @@ header label {
   }
 
   header input {
-  opacity: 0;
-  z-index: 0;
-  visibility: hidden;
-  position: absolute;
-}
+    opacity: 0;
+    z-index: 0;
+    visibility: hidden;
+    position: absolute;
+  }
 
-header label {
-  width: 50px;
-  height: 50px;
-  display: block;
+  header label {
+    width: 50px;
+    height: 50px;
+    display: block;
+  }
 }
-}
-
- 
 
 /* .nav-item {
   font-family: "Courier New", Courier, monospace;
