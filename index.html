@@ -74,16 +74,16 @@
     <section class="hero-container">
       <picture>
         <source
-          srcset="/assets/img/högrum1.png"
+          srcset="/assets/img/room-1/room1_1020.png"
           media="(min-width: 800px)"
           class="img-hero"
         />
         <source
-          srcset="/assets/img/room1_mobile.png"
+          srcset="/assets/img/room-1/room1_mobile_480.png"
           media="(min-width: 400px)"
           class="img-hero"
         />
-        <img src="/assets/img/room1_mobile.png" class="img-hero" alt="" />
+        <img src="/assets/img/room-1/room1_mobile_370.png" class="img-hero" alt="" />
       </picture>
     </section>
 
@@ -161,19 +161,16 @@
           <div class="program-content">
             <div class data-aos="fade-up">
               <h1>Program</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-                itaque sunt velit neque, quos expedita.
-              </p>
+              <h2> Några av de många intressanta programpunkter ni kan ta del av under dagen </h2>
+              <br>
               <ul class="program-list">
-                <li>1. korv med bröd</li>
-                <li>2. fiskdamm</li>
-                <li>3. fri lek</li>
-                <li>4. repetera steg 1-3</li>
+                <li>10.00 Prova på att hantera olika verktyg </li>
+                <li>13-18 Få hjälp av professionella inredare att piffa upp där hemma</li>
+                <li>14.00 Prova på att hantera olika verktyg</li>
+                <li>16.00 Föreläsning: Välja Hållbara Material</li>
               </ul>
             </div>
           </div>
-        </div>
       </section>
 
       <!-- RSVP SECTION -->
@@ -204,11 +201,9 @@
           />
         </picture>
 
-
-        <div class="paper-left">
-          
-          <img
-            src="/assets/svg/the-paper-left.svg"
+        <div class="paper-left">          
+          <img 
+            src="/assets/svg/paper_left_mobile.svg"
             alt="torn paper"
           />
 
@@ -216,23 +211,22 @@
           <!-- <img src="assets/img/hammer.svg" width="100px;" class="test" /> -->
           <!--  <div class="welcome-content"> -->
 
-          <div class="container">
+          <div class="form-container">
             <div class data-aos="fade-up">
-              <h1>RSVP</h1>
-              <p>Anmäl dig nedan för att säkra din plats</p>
-              <form action="xx" class="rsvp-form">
+              <h1 id="msg1">RSVP</h1>
+              <p id="msg2">Anmäl dig nedan för att säkra din plats</p>
+              <form class="rsvp-form">
                 <label for="name">För- och efternamn</label>
-                <input type="text" />
-                <!-- namn finns redan via jquery -->
-                <br />
+                <input type="text" placeholder="Lisa Larsson" class="f-name"/>
+                <!-- namn redan finnas via jquery?? -->
+                
                 <label for="email">Email</label>
-                <input type="email" required placeholder="lisa.larsson@gmail.com"/>
-                <br />
-                <label for="phonenumber">Mobilnummer (om du vill ha sms-uppdateringar)</label>
-              
-                <input type="number" placeholder="Ange telefonnummer utan streck och mellanslag"/>
-                <br />
-                <button>Boka</button>
+                <input type="email" required placeholder="lisa.larsson@gmail.com" class="f-email"/>
+                
+                <label for="phonenumber">Mobilnummer (valfritt)</label>
+                <input type="text" placeholder="Endast siffror"/>
+                
+                <button class="f-btn">Boka</button>
               </form>
             </div>
           </div>
@@ -243,31 +237,8 @@
       </div>
       
       </section>
-
-      <!-- 
-    <section class="rsvp">
-      <a id="rsvp"></a>
-      <div class="rsvp-container">
-        <picture>
-          <source srcset="/assets/img/room-3/room3_1020.png" media="(min-width: 900px)" />
-          <source srcset="/assets/img/room-3/room3_mobile_800.png" media="(min-width: 700px)" />
-          <source srcset="/assets/img/room-3/room3_mobile_480.png" media="(min-width: 400px)"  />
-        <img src="/assets/img/room-3/room3_mobile_370.png" class="room-img" alt="" />
-          </picture>
-          <div class="paper-left">
-            <div class="rsvp-content">
-              <div class data-aos="fade-up">
-              <h1>RSVP</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod itaque sunt velit neque, 
-                quos expedita. Deleniti inventore ipsa odio, perspiciatis, velit perferendis quidem veniam 
-                placeat dolorum aperiam voluptas sed minus.</p>
-            </div>
-            </div>
-          </div>
-      </div>
-      </section>
- -->
     </main>
+
     <a id="info"></a>
     <footer>
       <div class="footer-info">
@@ -289,8 +260,7 @@
       </div>
     </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+    <script> AOS.init(); </script>
+     <script src="app.js"></script>
   </body>
 </html>
