@@ -115,11 +115,12 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
 /* PROGRAM */
 .program {
   height: 100vh;
-  margin-top: -60px;
+  width: 100vw;
+  margin-top: -64px;
   position: relative;
   z-index: 9;
   display: flex;
-  margin-bottom: -55px;
+  margin-bottom: -64px;
 }
 
 .program-container {
@@ -128,7 +129,6 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 100vw;
   overflow: hidden;
 }
 
