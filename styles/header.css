@@ -67,9 +67,9 @@ header label {
 }
 
 @media screen and (min-width: 800px) {
-  .header {
+  header {
     position: fixed;
-    top: 80vh;
+    top: 0;
     /* right: 24px; */
     margin: 0;
   }
