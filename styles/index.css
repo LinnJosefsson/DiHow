@@ -178,7 +178,7 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
 
 .program-content {
   position: absolute;
-  display: flex;
+  /*  display: flex; */
   justify-content: center;
   /* align-items: center; */
   padding: 3rem;
@@ -216,6 +216,7 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
   left: 0px;
   opacity: 1;
 }
+
 /*
 .rsvp-content {
   font size etc
