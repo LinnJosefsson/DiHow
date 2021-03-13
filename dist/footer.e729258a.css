@@ -3,7 +3,7 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  min-height: 50vh;
+  min-height: fit-content;
   background-color: #b4c1c9;
   font-family: "Lato", Arial, Helvetica, sans-serif;
 }
