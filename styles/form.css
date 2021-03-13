@@ -48,7 +48,8 @@
   padding: 2px;
 }
 
-.f-btn {
+.rsvp-btn {
+  appearance: none;
   margin-top: 1rem;
   background-color: var(--ikea-blue);
   color: white;
@@ -56,10 +57,9 @@
   border: none;
   border-radius: 2rem;
   height: 2rem;
-  /*  margin-left: 5rem; */
-}
+} */
 
 /* .paper-left img {
   height: 500px;
   width: 80%;
-} */
+}

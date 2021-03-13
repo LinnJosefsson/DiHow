@@ -21,3 +21,16 @@ header label {
 }
 
   */
+
+@media screen and (min-width: 768px) {
+  .container-text img {
+    margin-left: 115px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container-text img {
+    max-width: 150px;
+    margin-left: 30px;
+  }
+}

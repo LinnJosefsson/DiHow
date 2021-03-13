@@ -30,9 +30,21 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
   overflow: hidden;
 }
 
+.welcome-img {
+  /*  display: flex;
+  flex-direction: row; */
+  width: 20%;
+  display: flex;
+  position: relative;
+
+  z-index: 12;
+
+  /* position: relative; */
+}
+
 .paper-right {
   display: flex;
-  /*   justify-content: center;
+  /* flex-direction: column; */ /*   justify-content: center;
   text-align: center; */
   max-width: 100%;
   height: 500px;
@@ -44,6 +56,48 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
   /*  top: 15%; */
   /* right: 0px; */
 }
+
+.paper-right img {
+  display: flex;
+  position: absolute;
+  opacity: 0.8;
+  /*   max-height: 400px;
+  max-width: 90%; */
+}
+
+.container-text img {
+  max-width: 300px;
+  opacity: 1;
+  margin-top: 30px;
+  margin-left: 70px;
+  position: relative;
+}
+
+.container-text {
+  display: flex;
+  text-align: center;
+  /*   justify-content: center; */
+  align-items: end;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  /*   width: 70%; */
+  /*   text-align: center; */
+  /*  padding: 30px; */
+  /* align-items: flex-end; */
+  flex-direction: row;
+  opacity: 1;
+  padding: 1rem;
+}
+
+.welcome-info {
+  margin: 20px;
+  width: 50%;
+  height: 80%;
+}
+/* 
+.container-text p {
+} */
 
 .paper-left {
   display: flex;
@@ -70,42 +124,15 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
   max-width: 90%; */
 }
 
-.container-text {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  position: relative;
-  width: 100%;
-  /*  padding: 30px; */
-  /* align-items: flex-end; */
-  flex-direction: column;
-  opacity: 1;
-  padding: 1rem;
-}
-
-.container-text p {
-  margin: 0 auto;
-  width: 70%;
-  text-align: center;
-}
-
-.container-text img {
+/* .container-text img {
   max-width: 200px;
-}
+} */
 
 /* .aos-init .aos-animate {
   display: flex;
   align-items: flex-end;
   right: 10px;
 } */
-
-.paper-right img {
-  display: flex;
-  position: absolute;
-  opacity: 0.8;
-  /*   max-height: 400px;
-  max-width: 90%; */
-}
 
 /* bytte namn, föredetta fp-img */
 .room-img {
@@ -158,17 +185,6 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
   width: 100vw;
 }
 
-.program-img-one {
-  /*  display: flex;
-  flex-direction: row; */
-  width: 30%;
-  display: flex;
-  align-items: row;
-  justify-content: center;
-
-  /* position: relative; */
-}
-
 /* hur att få penseln till höger?  */
 
 .program-content li {
@@ -196,7 +212,7 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
   position: absolute;
   overflow: hidden;
   font-size: 16px;
-  top: 15%;
+  top: 25%;
   left: 0px;
   opacity: 1;
 }
