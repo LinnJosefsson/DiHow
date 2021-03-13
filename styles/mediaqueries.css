@@ -1,36 +1,93 @@
-/* @media screen and (min-width: 800px) {
-  .header {
+/* DESKTOP HEADER
+-----------------------------------------------------------*/
+@media screen and (min-width: 800px) {
+  header {
     position: fixed;
-    top: 0px;
-    right: 24px;
+    top: 0;
     margin: 0;
+    height: 5rem;
   }
 
   header input {
-  opacity: 0;
-  z-index: 0;
-  visibility: hidden;
-  position: absolute;
+    opacity: 0;
+    z-index: 0;
+    visibility: hidden;
+    position: absolute;
+    left: 40%;
+    width: 30%;
+  }
+
+  header label {
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    top: 15%;
+    right: 3rem;
+
+  /* Turn Pink to see where you can click  */
+  /* background-color: violet; */
+  }
+
+  header h1 {
+    display: block;
+    color: white;
+    margin-left: 3rem;
+    padding: 0;
+    font-size: 4rem;
+  }
+
+  .hamburger {
+    width: 50px;
+    height: 50px;
+    background: none;
+    border: 0;
+    /* position: absolute;
+    top: 15%;
+    right: 3rem; */
+    z-index: 11;
+    pointer-events: none;
+  }
 }
 
-header label {
-  width: 50px;
-  height: 50px;
-  display: block;
-}
-}
-
-  */
-
+/* DESKTOP IMAGES
+------------------------------------------- */
 @media screen and (min-width: 768px) {
   .container-text img {
     margin-left: 115px;
   }
 }
 
+/* MOBILE IMAGES
+------------------------------------------- */
 @media screen and (max-width: 768px) {
   .container-text img {
     max-width: 150px;
     margin-left: 30px;
   }
 }
+
+/* BIGGER FONTS
+---------------------------------------------- */
+@media screen and (min-width: 768px) {
+  p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  li {
+    font-size: 1.3rem;
+  }
+}
+
+/* DESKTOP FOOTER
+-------------------------------------------------*/
+/* @media screen and (min-width:800px) {
+  footer {
+    
+  }
+} */
