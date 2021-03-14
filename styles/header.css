@@ -9,12 +9,12 @@ header {
   height: 4rem;
   z-index: 10;
   background-color: var(--ikea-blue);
-  opacity: 0.7;
+  opacity: 1;
   width: 100%;
 }
 
 header h1 {
-  display:none;
+  display: none;
 }
 
 .hamburger {
@@ -43,10 +43,8 @@ header label {
   display: block;
 
   /* Turn Pink to see where you can click  */
-  /* background-color: violet; */ 
+  /* background-color: violet; */
 }
-
-
 
 /* .nav-item {
   font-family: "Courier New", Courier, monospace;

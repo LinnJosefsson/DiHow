@@ -87,7 +87,7 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
   /* align-items: flex-end; */
   flex-direction: row;
   opacity: 1;
-  padding: 0.5rem;
+  padding: 0.5 rem;
 }
 
 .welcome-info {
