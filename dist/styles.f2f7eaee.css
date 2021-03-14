@@ -60,13 +60,14 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
 .paper-right img {
   display: flex;
   position: absolute;
+  right: 0;
   opacity: 0.8;
-  /*   max-height: 400px;
-  max-width: 90%; */
+  max-height: 85%;
+  max-width: 100%;
 }
 
 .container-text img {
-  max-width: 300px;
+  max-width: 18%;
   opacity: 1;
   margin-top: 30px;
   margin-left: 70px;
@@ -192,14 +193,15 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
   display: flex;
   justify-content: center;
   align-items: center;
-  list-style-type: none;
+  list-style-type:none;
   margin-bottom: 1rem;
+  /* font-size: 1rem; */
 }
 
-.program-content h2 {
+/* .program-content h2 {
   font-family: "Bebas Neue";
   font-weight: 500;
-}
+} */
 
 /* RSVP (form styling in form.css) */
 

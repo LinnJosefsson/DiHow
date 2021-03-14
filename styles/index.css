@@ -195,7 +195,7 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
   align-items: center;
   list-style-type:none;
   margin-bottom: 1rem;
-  font-size: 1.3rem;
+  /* font-size: 1rem; */
 }
 
 /* .program-content h2 {
