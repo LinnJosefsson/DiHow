@@ -38,9 +38,14 @@
   width: 60%;
 }
 
+/* .hero-content a {
+  background-color: blueviolet;
+} */
+
 .arrow-animation {
   width: 50px;
-  animation: bounce 2s infinite;
+  animation: bounce 2.5s infinite;
+  
 }
 
 .arrow-animation:active {
@@ -52,7 +57,7 @@
     transform: translateY(0);
   }
   40% {
-    transform: translateY(-20px);
+    transform: translateY(-10px);
   }
   60% {
     transform: translateY(-10px);
