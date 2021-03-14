@@ -11,9 +11,33 @@
 }
 
 .hero-container {
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
+  position:relative;
+  /* text-align: center; */
   width: 100vw;
   scroll-snap-align: start;
   height: 100vh;
+}
+
+.hero-content {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+  background-color: #b4c1c9;
+  opacity: 0.8;
+  max-width: 60%;
+  position: absolute;
+  top: 20%;
+  left: 20%; 
+}
+
+.logo {
+  width: 60%;
+}
+
+.arrow-animation {
+  width: 50px;
 }

@@ -3,36 +3,18 @@
   box-sizing: border-box;
 }
 
-/* header {
-  display: flex;
-  width: 100%;
-  position: absolute;
-  height: 100vh;
-  margin: 0;
-} */
-
-/* .nav-bar {
-  display: flex;
-  width: 100%;
-  top: 0;
-  right: 0;
-  display: none;
-  flex-direction: row;
-  background: rgb(132, 175, 135);
-  position: relative;
-  z-index: 111;
-} */
-
 header {
   position: fixed;
   bottom: 0px;
-  /* margin-right: 58%; /* en jävla nödlösning */
-  /* margin-left: 50%; */
   height: 4rem;
   z-index: 10;
   background-color: var(--ikea-blue);
   opacity: 0.7;
   width: 100%;
+}
+
+header h1 {
+  display:none;
 }
 
 .hamburger {
@@ -41,17 +23,9 @@ header {
   background: none;
   border: 0;
   position: absolute;
-  top: 8%;
-  right: 44%;
   z-index: 11;
   pointer-events: none;
 }
-
-/* .hamburger-background {
-  width: 100%;
-  height: 60px;
-  background-color: rgba(144, 144, 208, 0.705);
-} */
 
 header input {
   opacity: 0;
@@ -61,32 +35,18 @@ header input {
 }
 
 header label {
-  width: 100%;
+  width: 50px;
   height: 50px;
+  position: absolute;
+  top: 10%;
+  right: 50%;
   display: block;
+
+  /* Turn Pink to see where you can click  */
+  /* background-color: violet; */ 
 }
 
-@media screen and (min-width: 800px) {
-  header {
-    position: fixed;
-    top: 0;
-    /* right: 24px; */
-    margin: 0;
-  }
 
-  header input {
-    opacity: 0;
-    z-index: 0;
-    visibility: hidden;
-    position: absolute;
-  }
-
-  header label {
-    width: 100%;
-    height: 50px;
-    display: block;
-  }
-}
 
 /* .nav-item {
   font-family: "Courier New", Courier, monospace;

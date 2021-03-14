@@ -30,10 +30,22 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
   overflow: hidden;
 }
 
-.paper {
+.welcome-img {
+  /*  display: flex;
+  flex-direction: row; */
+  width: 20%;
   display: flex;
-  justify-content: flex-end;
-  text-align: center;
+  position: relative;
+
+  z-index: 12;
+
+  /* position: relative; */
+}
+
+.paper-right {
+  display: flex;
+  /* flex-direction: column; */ /*   justify-content: center;
+  text-align: center; */
   max-width: 100%;
   height: 500px;
   right: 0;
@@ -43,8 +55,49 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
   font-size: 16px;
   /*  top: 15%; */
   /* right: 0px; */
-  opacity: 0.8;
 }
+
+.paper-right img {
+  display: flex;
+  position: absolute;
+  opacity: 0.8;
+  /*   max-height: 400px;
+  max-width: 90%; */
+}
+
+.container-text img {
+  max-width: 300px;
+  opacity: 1;
+  margin-top: 30px;
+  margin-left: 70px;
+  position: relative;
+}
+
+.container-text {
+  display: flex;
+  text-align: center;
+  /*   justify-content: center; */
+  align-items: end;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  /*   width: 70%; */
+  /*   text-align: center; */
+  /*  padding: 30px; */
+  /* align-items: flex-end; */
+  flex-direction: row;
+  opacity: 1;
+  padding: 1rem;
+}
+
+.welcome-info {
+  margin: 20px;
+  width: 50%;
+  height: 80%;
+}
+/* 
+.container-text p {
+} */
 
 .paper-left {
   display: flex;
@@ -59,38 +112,27 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
   font-size: 16px;
   /*  top: 15%; */
   /* right: 0px; */
-  opacity: 0.8;
 }
 
 .paper-left img {
   display: flex;
   position: absolute;
   width: 100%;
+  opacity: 0.8;
   /*left: 0*/
   /*   max-height: 400px;
   max-width: 90%; */
 }
 
-.container-text {
-  display: flex;
-  width: 90%;
-  padding: 30px;
-  align-items: flex-end;
-  flex-direction: column;
-}
+/* .container-text img {
+  max-width: 200px;
+} */
 
 /* .aos-init .aos-animate {
   display: flex;
   align-items: flex-end;
   right: 10px;
 } */
-
-.paper img {
-  display: flex;
-  position: absolute;
-  /*   max-height: 400px;
-  max-width: 90%; */
-}
 
 /* bytte namn, föredetta fp-img */
 .room-img {
@@ -114,28 +156,36 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
 /* PROGRAM */
 .program {
   height: 100vh;
-  margin-top: -60px;
+  width: 100vw;
+  margin-top: -67px;
   position: relative;
   z-index: 9;
   display: flex;
-  margin-bottom: -55px;
+  margin-bottom: -67px;
 }
 
 .program-container {
   position: relative;
   display: flex;
-  justify-content: center;
+  /*   justify-content: center; */
+  /* flex-direction: row; */
+  /* justify-content: center; */
   align-items: center;
+  /*   align-items: center; */
   text-align: center;
-  width: 100vw;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .program-content {
   position: absolute;
-  top: 30%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
   padding: 3rem;
+  width: 100vw;
 }
+
+/* hur att få penseln till höger?  */
 
 .program-content li {
   font-family: "Lato", "Gill Sans", Calibri, sans-serif;
@@ -143,22 +193,28 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
   justify-content: center;
   align-items: center;
   list-style-type: none;
+  margin-bottom: 1rem;
+}
+
+.program-content h2 {
+  font-family: "Bebas Neue";
+  font-weight: 500;
 }
 
 /* RSVP (form styling in form.css) */
 
-#paper-left {
+.paper-left {
   display: flex;
   justify-content: flex-start;
   text-align: center;
   max-width: 100%;
-  height: 500px;
+  height: 400px;
   position: absolute;
   overflow: hidden;
   font-size: 16px;
-  top: 15%;
+  top: 25%;
   left: 0px;
-  opacity: 0.8;
+  opacity: 1;
 }
 /*
 .rsvp-content {

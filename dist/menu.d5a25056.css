@@ -22,7 +22,7 @@
 }
 
 .menu-list-item {
-  font-family: "Lato", 'Gill Sans', Calibri, sans-serif;
+  font-family: "Lato", "Gill Sans", Calibri, sans-serif;
   margin-bottom: 3rem;
   font-size: 2.6rem;
   font-weight: 200;
@@ -30,7 +30,7 @@
 }
 
 .menu-list-item a {
-  font-family: "Lato", 'Gill Sans', Calibri, sans-serif;
+  font-family: "Lato", "Gill Sans", Calibri, sans-serif;
   color: white;
   font-weight: 200;
   text-decoration: none;
