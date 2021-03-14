@@ -9,7 +9,6 @@ header {
   height: 4rem;
   z-index: 10;
   background-color: var(--ikea-blue);
-  opacity: 1;
   width: 100%;
 }
 
@@ -39,7 +38,7 @@ header label {
   height: 50px;
   position: absolute;
   top: 10%;
-  right: 50%;
+  right: 45%;
   display: block;
 
   /* Turn Pink to see where you can click  */
