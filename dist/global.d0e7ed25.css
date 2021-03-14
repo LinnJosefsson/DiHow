@@ -20,6 +20,11 @@ html {
   src: url("Lato-Regular.0d85e524.woff");
 }
 
+@font-face {
+  font-family: "Junior";
+  src: url("Junior.be1796c7.woff");
+}
+
 h1 {
   font-family: "Bebas Neue";
   font-size: 9vh;
@@ -37,6 +42,7 @@ p {
 
 :root {
     --ikea-blue: rgb(35, 91, 157);
+    --ikea-yellow: rgba(255, 218, 26, 0.753);
 } 
 
 /*# sourceMappingURL=global.d0e7ed25.css.map */

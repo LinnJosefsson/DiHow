@@ -39,15 +39,16 @@
 .rsvp-form label {
   padding: 3px;
   font-family: "Lato";
+  /* margin-right: 50%; */
 }
 
 .rsvp-form input {
-  margin-top: 5px;
+  margin: 5px 0px;
   height: 1.5rem;
   width: 300px;
   border: none;
   border-radius: 3px;
-  padding: 2px;
+  padding-left: 5px;
 }
 
 .rsvp-btn {
@@ -64,10 +65,10 @@ border-radius: 5px;
 
 .btn-animation {
   background-color: var(--ikea-blue);
-  width: 85px;
-  font-size: 19px;
+  width: 5rem;
+  font-size: 1rem;
   letter-spacing: .9px;
-  height: 30px;
+  height: 2rem;
   border: none;
   box-shadow: 1px 1px 1px #888888;
   border-radius: 25px;
@@ -79,12 +80,13 @@ border-radius: 5px;
 
 .btn-animation:hover {
   transform: scale(1.2) perspective(.5px);
-  background-color: rgba(230, 219, 60, 0.753);
+  background-color: var(--ikea-yellow);
   color: var(--ikea-blue);
-  border-radius: 0%;
+  font-family: "Junior";
+  border-radius: 3px;
   border: 5px solid var(--ikea-blue);
-  letter-spacing: 0;
-  font-weight: bold;
+  box-shadow: none;
+  letter-spacing: 1px;
   text-transform: uppercase;
 }
 

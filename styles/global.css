@@ -20,6 +20,11 @@ html {
   src: url("/assets/fonts/Lato-Regular.woff");
 }
 
+@font-face {
+  font-family: "Junior";
+  src: url("/assets/fonts/Junior.woff");
+}
+
 h1 {
   font-family: "Bebas Neue";
   font-size: 9vh;
@@ -37,4 +42,5 @@ p {
 
 :root {
     --ikea-blue: rgb(35, 91, 157);
+    --ikea-yellow: rgba(255, 218, 26, 0.753);
 } 
