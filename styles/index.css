@@ -43,12 +43,13 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
 .paper-right-div {
   display: flex;
   justify-content: flex-end;
-  text-align: center;
+  /* text-align: center; */
   max-width: 90%;
-  height: 400px;
+  /* height: 400px; */
   right: 0;
+  top: 2rem;
   position: absolute;
-  overflow: hidden;
+  /* overflow: hidden; */
   /* opacity: 0.9; */
   /* z-index: 1; */
   /*  top: 15%; */
@@ -66,6 +67,7 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
   overflow: hidden;
   opacity: 0.9;
   font-size: 16px;
+  object-fit: fill;
 }
 
 /* .paper-right img {
@@ -100,12 +102,12 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
   /*   text-align: center; */
   /*  padding: 30px; */
   opacity: 1;
-  padding-top: 1rem;
+  padding-top: 2.5rem;
 }
 
 .welcome-info { /* motsvarar form element */
   margin: 20px;
-  max-width: 40%;
+  max-width: 50%;
   height: 80%;
   padding-right: 2rem;
 }

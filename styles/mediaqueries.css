@@ -183,6 +183,7 @@
   .welcome-info { /* motsvarar form element */
     margin:0;
     padding-top: 6rem;
+    padding-right: 4rem;
     /* max-width: 40%;
     height: 80%; */
   }
