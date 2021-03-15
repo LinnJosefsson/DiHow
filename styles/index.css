@@ -79,14 +79,12 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
   max-width: 100%;
 } */
 
-/* .container-text img  */
+/* tidigare: .container-text img  */
 #hammer {
-  /* max-width: 18%;
+  max-width: 18%;
   opacity: 1;
-  margin-top: 30px;
-  margin-left: 70px;
-  position: relative; */
-  display: none;
+  margin-top: 2rem;
+  position: relative;
 }
 
 .container-text { /* motsvarar .form-container */
@@ -96,11 +94,8 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
   /* align-items: end; */
   position: relative;
   right: 0;
-  /* width: 100vw; */
+  max-width: 100vw;
   margin: 0 auto;
-  /*   width: 70%; */
-  /*   text-align: center; */
-  /*  padding: 30px; */
   opacity: 1;
   padding-top: 2.5rem;
 }
