@@ -23,7 +23,7 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
 /* fd welcome-container */
 .container {
   display: flex;
-  justify-content: center;
+  /* justify-content: flex-end; */
   align-items: center;
   position: relative;
   width: 100vw;
@@ -33,97 +33,85 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
 .welcome-img {
   /*  display: flex;
   flex-direction: row; */
-  width: 20%;
+  width: 70%;
   display: flex;
   position: relative;
-
   z-index: 12;
-
   /* position: relative; */
 }
 
-.paper-right {
+.paper-right-div {
   display: flex;
-  /* flex-direction: column; */ /*   justify-content: center;
-  text-align: center; */
-  max-width: 100%;
-  height: 500px;
+  justify-content: flex-end;
+  text-align: center;
+  max-width: 90%;
+  height: 400px;
   right: 0;
   position: absolute;
   overflow: hidden;
+  /* opacity: 0.9; */
   /* z-index: 1; */
-  font-size: 16px;
   /*  top: 15%; */
   /* right: 0px; */
 }
 
-.paper-right img {
+.paper-right {
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  max-width: 90%;
+  height: 80vh;
+  right: 0;
+  position: absolute;
+  overflow: hidden;
+  opacity: 0.9;
+  font-size: 16px;
+}
+
+/* .paper-right img {
   display: flex;
   position: absolute;
   right: 0;
   opacity: 0.8;
   max-height: 85%;
   max-width: 100%;
-}
+} */
 
-.container-text img {
-  max-width: 18%;
+/* .container-text img  */
+#hammer {
+  /* max-width: 18%;
   opacity: 1;
   margin-top: 30px;
   margin-left: 70px;
-  position: relative;
+  position: relative; */
+  display: none;
 }
 
-.container-text {
+.container-text { /* motsvarar .form-container */
   display: flex;
+  justify-content: flex-end;
   text-align: center;
-  /*   justify-content: center; */
-  align-items: end;
+  /* align-items: end; */
   position: relative;
-  width: 100%;
+  right: 0;
+  /* width: 100vw; */
   margin: 0 auto;
   /*   width: 70%; */
   /*   text-align: center; */
   /*  padding: 30px; */
-  /* align-items: flex-end; */
-  flex-direction: row;
   opacity: 1;
-  padding: 0.5 rem;
+  padding-top: 1rem;
 }
 
-.welcome-info {
+.welcome-info { /* motsvarar form element */
   margin: 20px;
-  width: 50%;
+  max-width: 40%;
   height: 80%;
+  padding-right: 2rem;
 }
 /* 
 .container-text p {
 } */
-
-.paper-left {
-  display: flex;
-  justify-content: flex-start;
-  text-align: center;
-  max-width: 100%;
-  height: 500px;
-  left: 0;
-  position: absolute;
-  overflow: hidden;
-  /* z-index: 1; */
-  font-size: 16px;
-  /*  top: 15%; */
-  /* right: 0px; */
-}
-
-.paper-left img {
-  display: flex;
-  position: absolute;
-  width: 100%;
-  opacity: 0.8;
-  /*left: 0*/
-  /*   max-height: 400px;
-  max-width: 90%; */
-}
 
 /* .container-text img {
   max-width: 200px;
@@ -135,7 +123,7 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
   right: 10px;
 } */
 
-/* bytte namn, föredetta fp-img */
+/* Fullpage Room bg images */
 .room-img {
   width: 100vw;
   height: 100vh;
