@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
   <head>
     <meta charset="UTF-8" />
+    <meta name="description" content="Ikea furnishing and house decoration">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/styles/global.css" />
     <link rel="stylesheet" href="/styles/header.css" />
     <link rel="stylesheet" href="/styles/hero.css" />
     <link rel="stylesheet" href="/styles/index.css" />
+<!--     <link rel="stylesheet" href="/styles/signup.css" /> -->
     <link rel="stylesheet" href="/styles/footer.css" />
     <link rel="stylesheet" href="/styles/menu.css" />
     <link rel="stylesheet" href="/styles/form.css" />
@@ -76,12 +78,12 @@
       <picture>
         <source
           srcset="/assets/img/room-1/room1_1020.png"
-          media="(min-width: 800px)" alt="image of a kitchen"
+          media="(min-width: 800px)" 
           class="img-hero"
         />
         <source
           srcset="/assets/img/room-1/room1_mobile_480.png"
-          media="(min-width: 400px)" alt="animated image of a kitchen"
+          media="(min-width: 400px)" 
           class="img-hero"
         />
         <img src="/assets/img/room-1/room1_mobile_370.png" class="img-hero" alt="animated image of a kitchen" />
@@ -91,8 +93,7 @@
         <img class="logo" src="/assets/svg/logo.webp" alt="IKEA logo">
         <p>presenterar</p>
         <h1>D I How</h1>
-        <a href="#welcome"><img class="arrow-animation" src="/assets/svg/down-arrow-white.png"></img></a>
-        
+        <img class="arrow-animation" src="/assets/svg/down-arrow-white.png" alt="arrow pointing down" /> 
       </div>
     </section>
 
@@ -155,106 +156,60 @@
       <a id="program"></a>
           
       <section name="Program" class="program">
-  
         <div class="program-container">
-         
-  
-                <!--        
-     <picture>
-            <source
-              srcset="/assets/svg/big_paper.svg"
-              media="(min-width: 800px)"
-              class="room-img"
-            />
-            <source
-              srcset="/assets/svg/big_paper.svg"
-              media="(min-width: 400px)"
-              class="room-img"
-            /> -->
-            <img src="/assets/svg/big_paper_2.svg" class="room-img" alt="big piece of blue paper with torn edges" />
-<!--</picture>-->
+          <img src="/assets/svg/big_paper_2.svg" class="room-img" alt="big piece of blue paper with torn edges" />
+
           <div class="program-content">
             <div class data-aos="fade-up">
               <h1>Program</h1>
-              <h2> Några av de många programpunkter ni kan ta del av under dagen </h2>
+              <h2> Några av de många intressanta programpunkter ni kan ta del av under dagen </h2>
               <br>
               <ul class="program-list">
-                <li>Prova på att hantera olika verktyg </li>
-                <li>Få hjälp av professionella att planera dina projekt</li>
-                <li>Prova på att hantera olika verktyg</li>
-                <li>Föreläsning: Välja Hållbara Material</li>
-                
+                <li>10.00 Prova på att hantera olika verktyg </li>
+                <li>13-18 Få hjälp av professionella inredare att piffa upp där hemma</li>
+                <li>14.00 Prova på att hantera olika verktyg</li>
+                <li>16.00 Föreläsning: Välja Hållbara Material</li>
               </ul>
             </div>           
           </div>
-          </div>          
+        </div>          
       </section>
 
       <!-- RSVP SECTION -->
       <a id="rsvp"></a>
       <section class="container">
-        <!-- <div class="container"> -->
           <picture>
-            <source
-              srcset="/assets/img/room-3/room3_1920.png"
-              media="(min-width: 900px)" alt="animated image of a bathroom"
-              class="room-img"
-            />
-            <source
-              srcset="/assets/img/room-3/room3_mobile_800.png"
-              media="(min-width: 700px)" alt="animated image of a bathroom"
-              class="room-img"
-            />
-            <source
-              srcset="/assets/img/room-3/room3_mobile_480.png"
-              media="(min-width: 400px)" alt="animated image of a bathroom"
-              class="room-img"
-            />
-            <img
-              src="/assets/img/room-3/room3_mobile_370.png"
-              class="room-img"
-              alt="animated image of a bathroom"
-            />
+            <source srcset="/assets/img/room-3/room3_1920.png" media="(min-width: 900px)" alt="animated image of a bathroom" class="room-img"/>
+            <source srcset="/assets/img/room-3/room3_mobile_800.png" media="(min-width: 700px)" alt="animated image of a bathroom" class="room-img"/>
+            <source srcset="/assets/img/room-3/room3_mobile_480.png" media="(min-width: 400px)" alt="animated image of a bathroom" class="room-img"/>
+            <img  src="/assets/img/room-3/room3_mobile_370.png" class="room-img" alt="animated image of a bathroom"/>
           </picture>
 
-          <div class="paper-left">          
-            <div class data-aos="fade-right">
-              <picture>
-                <source
-                  srcset="/assets/svg/paper_left.svg"
-                  media="(min-width: 600px)"
-                  class="paper-left"
-                />
-                <img 
-                  src="/assets/svg/paper_left_mobile.svg"
-                  alt="a piece of blue paper with torn edges"
-                  />
-              </picture>
-            <!-- <img src="assets/img/hammer.svg" width="100px;" class="test" /> -->
-              <div class="form-container">   
-                  <h1 id="msg1">Anmälan</h1>
-                  <p id="msg2">Registrera dig nedan för att säkra din plats</p>
-                  <form class="rsvp-form">
-                    <img src="/assets/svg/hammer.svg" alt="paintbrush" class="rsvp-icon" />
-                    
-                    <img src="/assets/svg/paintbrush.svg" alt="paintbrush" />
-                    <label for="name">För- och efternamn</label>
-                    <input type="text" placeholder="Lisa Larsson" class="f-name"/>
-                    <!-- namn redan finnas via jquery?? -->
-                    <br>
-                    <label for="email">Email</label>
-                    <input type="email" placeholder="lisa.larsson@gmail.com" class="f-email"/>
-                    <br>
-                    <label for="phonenumber">Mobilnummer (valfritt)</label>
-                    <input type="text" placeholder="Endast siffror"/>
-                    
-                    <div class="rsvp-btn">
-                      <button class="btn-animation f-btn">Boka</button></div>
-                  </form>
-              </div>
+        <div class="paper-left">          
+          <div class data-aos="fade-right">
+          <img src="/assets/svg/paper_left_mobile.svg"alt="a piece of blue paper with torn edges"/>
+
+          <div class="form-container">            
+            <h1 id="msg1">RSVP</h1>
+              <p id="msg2">Anmäl dig nedan för att säkra din plats</p>
+              <form class="rsvp-form">
+                <img src="/assets/svg/hammer.svg" alt="animated paintbrush" class="rsvp-icon" />
+                <img src="/assets/svg/paintbrush.svg" alt="animated paintbrush" />
+
+                <label for="name">För- och efternamn</label>
+                <input type="text" placeholder="Lisa Larsson" class="f-name"/>
+                <!-- namn redan finnas via jquery?? -->
+                
+                <label for="email">Email</label>
+                <input type="email" required placeholder="lisa.larsson@gmail.com" class="f-email"/>
+                
+                <label for="phonenumber">Mobilnummer (valfritt)</label>
+                <input type="text" placeholder="Endast siffror"/>
+                
+                <div class="rsvp-btn"><button class="btn-animation">Boka</button></div>
+              </form>
             </div>
           </div>
-        <!-- </div>      -->
       </section>
     </main>
 
@@ -267,18 +222,21 @@
           <li>34334</li>
           <li>Älmhult</li>
         </ul>
+
         <ul class="footer-right">
           <li>Telefon</li>
           <li>Email</li>
           <li>Instagram</li>
         </ul>
       </div>
+
       <div><h1>Välkommen i höst!</h1></div>
       <div class="copyright">
         <p>Copyright 2021 IKEA of Sweden AB | All rights reserved</p>
       </div>
     </footer>
   </div>
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script> AOS.init(); </script>
      <script src="app.js"></script>
