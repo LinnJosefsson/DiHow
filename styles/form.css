@@ -1,9 +1,33 @@
+.paper-left {
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  max-width: 100%;
+  height: fit-content;
+  left: 0;
+  position: absolute;
+  overflow: hidden;
+  /* z-index: 1; */
+  font-size: 16px;
+  /*  top: 15%; */
+  /* right: 0px; */
+}
+
+.paper-left img {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  opacity: 0.9;
+  /*left: 0*/
+  /*max-height: 400px;
+  max-width: 90%; */
+}
+
 .form-container {
   padding: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
   position: relative;
   width: 100vw;
   overflow: hidden;
@@ -30,31 +54,31 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  margin: 0 auto;
+  align-items: flex-start;
+  margin: 1rem auto;
  /*  padding-bottom: 30%; */
   z-index: 11;
 }
 
 .rsvp-form label {
-  padding: 3px;
+  margin-bottom: 5px;
   font-family: "Lato";
 }
 
 .rsvp-form input {
-  margin-top: 5px;
   height: 1.5rem;
-  width: 300px;
+  width: 14rem;
   border: none;
   border-radius: 3px;
-  padding: 2px;
+  padding-left: 5px;
 }
 
 .rsvp-btn {
 border-radius: 5px;
   padding: 10px;
   text-decoration: none;
-  margin: 5px;
+  margin-top: 10px; 
+  margin-left: 25%;
 } 
 
 .rsvp-btn:active {
@@ -64,10 +88,10 @@ border-radius: 5px;
 
 .btn-animation {
   background-color: var(--ikea-blue);
-  width: 85px;
-  font-size: 19px;
+  width: 5rem;
+  font-size: 1rem;
   letter-spacing: .9px;
-  height: 30px;
+  height: 2rem;
   border: none;
   box-shadow: 1px 1px 1px #888888;
   border-radius: 25px;
@@ -79,12 +103,13 @@ border-radius: 5px;
 
 .btn-animation:hover {
   transform: scale(1.2) perspective(.5px);
-  background-color: rgba(230, 219, 60, 0.753);
+  background-color: var(--ikea-yellow);
   color: var(--ikea-blue);
-  border-radius: 0%;
+  font-family: "Junior";
+  border-radius: 3px;
   border: 5px solid var(--ikea-blue);
-  letter-spacing: 0;
-  font-weight: bold;
+  box-shadow: none;
+  letter-spacing: 1px;
   text-transform: uppercase;
 }
 

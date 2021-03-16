@@ -38,7 +38,29 @@
   width: 60%;
 }
 
+/* .hero-content a {
+  background-color: blueviolet;
+} */
+
 .arrow-animation {
   width: 50px;
+  animation: bounce 2.5s infinite;
+  
+}
+
+.arrow-animation:active {
+  transform: translate(0px, 5px);
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
 }
 /*# sourceMappingURL=hero.865c9457.css.map */

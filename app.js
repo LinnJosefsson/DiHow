@@ -18,7 +18,7 @@ btnSubmit.addEventListener('click', () => {
         msg1.textContent = "Din plats är bokad!";
         msg2.textContent = "Håll utkik i mailen efter en bekräftelse och mer information";
         form.style.display ="none";
-         
+        
       }
       if (fullName.value && email.value === "") {
         false;
