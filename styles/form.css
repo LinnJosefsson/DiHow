@@ -1,12 +1,12 @@
 .paper-left {
   display: flex;
   justify-content: flex-start;
-  text-align: center;
+  /* text-align: center; */
   max-width: 100%;
-  height: fit-content;
+  height: 70vh;
   left: 0;
   position: absolute;
-  overflow: hidden;
+  /* overflow: hidden; */
   /* z-index: 1; */
   font-size: 16px;
   /*  top: 15%; */
@@ -24,39 +24,26 @@
 }
 
 .form-container {
-  padding: 1rem;
+  padding: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-content: center;
   position: relative;
   width: 100vw;
   overflow: hidden;
 }
 
-
-
-/* .form-container {
-  display: flex;
-  width: 90%;
-  padding: 30px;
-  align-items: flex-end;
-  flex-direction: column;
-  z-index: 2;
-} */
-
 .form-container h1 {
   margin: 0;
 }
-/* .form-container p {
 
-} */
 .rsvp-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   margin: 1rem auto;
- /*  padding-bottom: 30%; */
   z-index: 11;
 }
 
@@ -113,7 +100,3 @@ border-radius: 5px;
   text-transform: uppercase;
 }
 
-/* .paper-left img {
-  height: 500px;
-  width: 80%;
-}
