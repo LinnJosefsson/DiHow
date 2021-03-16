@@ -130,7 +130,7 @@
   }
 } 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 710px) {
  #hammer {
    display: none;
  }
@@ -156,7 +156,7 @@
   }
   .welcome-info { /* motsvarar form element */
     margin:0;
-    padding-top: 6rem;
+    padding-top: 15rem;
     max-width: 10%;
     /*height: 80%; */
   }

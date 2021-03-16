@@ -30,15 +30,15 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
   overflow: hidden;
 }
 
-.welcome-img {
+/* .welcome-img {
   /*  display: flex;
   flex-direction: row; */
-  width: 70%;
+  /* width: 70%;
   display: flex;
   position: relative;
-  z-index: 12;
-  /* position: relative; */
-}
+  z-index: 12; */
+  /* position: relative; 
+} */
 
 .paper-right-div {
   display: flex;
