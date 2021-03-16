@@ -1,11 +1,16 @@
 // Confirm message after Booking
 
-const btnSubmit = document.querySelector('.f-btn');
+
+const btnSubmit = document.querySelector('.rsvp-btn');
 const form = document.querySelector('.rsvp-form');
 const fullName = document.querySelector('.f-name');
 const email = document.querySelector('.f-email');
 const msg1 = document.querySelector('#msg1');
 const msg2 = document.querySelector('#msg2');
+
+window.onload = function() {
+    document.querySelector("body").classList.add('show-time');
+};
 
 btnSubmit.addEventListener('click', () => {
 
@@ -23,4 +28,5 @@ btnSubmit.addEventListener('click', () => {
           }
         });
       }
-    });
+});
+    

@@ -8,6 +8,19 @@ body {
   scroll-behavior: smooth; /* clicking navbar links, not on all browsers */
   scroll-snap-type: y; /* mandatory is bad-ish a11y, not available on Brave */
 }
+
+.fade-in {
+    opacity: 0;
+    left: -100%;
+    transition: opacity 1s ease-in;
+}
+
+.show-time .fade-in {
+    opacity: 1;
+    left: 0;
+}
+
+
 /* WELCOME */
 /* .welcome {
   display: flex;
@@ -29,6 +42,7 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
   width: 100vw;
   overflow: hidden;
 }
+
 
 .welcome-img {
   /*  display: flex;
@@ -61,6 +75,7 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
   display: flex;
   position: absolute;
   opacity: 0.8;
+  align-items: start;
   /*   max-height: 400px;
   max-width: 90%; */
 }
@@ -80,7 +95,7 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
   align-items: end;
   position: relative;
   width: 100%;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   /*   width: 70%; */
   /*   text-align: center; */
   /*  padding: 30px; */
