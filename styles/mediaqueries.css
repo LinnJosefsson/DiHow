@@ -104,13 +104,7 @@
     /* line-height: 2rem;  */
   }
 }
-/* DESKTOP FOOTER
--------------------------------------------------*/
-/* @media screen and (min-width:800px) {
-  footer {
-    
-  }
-} */
+
 
 /* DESKTOP WELCOME, BIGGER PAPER RIGHT IMG */
 /* @media screen and (min-width: 400) {
@@ -128,15 +122,10 @@
 ------------------------------------------- */
 #hammer {
   width: 25%;
-  /* max-width: 80px; */
   height: 80%;
   opacity: 1;
   margin: 2rem 6rem;
-  /* position: absolute;
-  top: 4rem;
-  left: 20% */
 }
-
  
 
 @media screen and (max-width: 340px) {
@@ -154,11 +143,7 @@
 
   #hammer {
     max-width: 80px;
-    /* opacity: 1; */
-    /* margin-top: 2rem; */
     margin: 1rem;
-    /* position: relative; */
-    /* top: 1rem; */
   }
 } 
 
@@ -179,11 +164,35 @@
 
 @media screen and (min-width: 800px) {
   #hammer {
-    max-width: 10%;
+    max-width: 20%;
     /* margin-top: 2rem; */
-    /* margin: 2rem; */
+    margin: 4rem;
     position: relative;
     /* top: 5rem; */
+  }
+
+  .welcome-info {
+    padding: 4rem;
+    max-width: 600px;
+    /* font-size: 2rem;
+    line-height: 2rem; */
+  }
+} 
+
+@media screen and (min-width: 1100px) {
+  #hammer {
+    max-width: 20%;
+    /* margin-top: 2rem; */
+    margin-left: 5rem;
+    /* position: relative; */
+    /* top: 5rem; */
+  }
+
+  .welcome-info {
+    padding: 4rem;
+    max-width: 900px;
+    /* font-size: 2rem;
+    line-height: 2rem; */
   }
 } 
 

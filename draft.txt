@@ -81,3 +81,11 @@
     height: 80%; 
   }
 }  */
+
+/* DESKTOP FOOTER
+-------------------------------------------------*/
+/* @media screen and (min-width:800px) {
+  footer {
+    
+  }
+} */
