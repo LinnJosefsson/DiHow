@@ -10,16 +10,15 @@ body {
 }
 
 .fade-in {
-    opacity: 0;
-    left: -100%;
-    transition: opacity 1s ease-in;
+  opacity: 0;
+  left: -100%;
+  transition: opacity 1s ease-in;
 }
 
 .show-time .fade-in {
-    opacity: 1;
-    left: 0;
+  opacity: 1;
+  left: 0;
 }
-
 
 /* WELCOME */
 /* .welcome {
@@ -35,12 +34,13 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
 
 /* fd welcome-container */
 .container {
-  display: flex;
+  /*   display: flex; */
   /* justify-content: flex-end; */
   align-items: center;
   position: relative;
   width: 100vw;
   overflow: hidden;
+  height: 100vh;
 }
 
 .paper-right-div {
@@ -51,7 +51,7 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
   /* height: 400px; */
   /* right: 0;
   top: 2rem;
-  position: absolute; */ 
+  position: absolute; */
   /* overflow: hidden; */
   /* opacity: 0.9; */
   /* z-index: 1; */
@@ -83,11 +83,11 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
   max-width: 90%; */
 
   /* Paper Left (img) */
-    display: flex;
-    position: absolute;
-    right: 0;
-    width: 100%;
-    opacity: 0.9;
+  display: flex;
+  position: absolute;
+  right: 0;
+  width: 100%;
+  opacity: 0.9;
 }
 
 /* .paper-right img {
@@ -99,7 +99,8 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
   max-width: 100%;
 } */
 
-.container-text { /* motsvarar .form-container */
+.container-text {
+  /* motsvarar .form-container */
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-around;
@@ -123,13 +124,14 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
   max-width: 80px;
   height: 80%;
   opacity: 1; */
-  /* margin-top: 2rem; */
-  /* position: absolute;
+/* margin-top: 2rem; */
+/* position: absolute;
   top: 4rem;
   left: 20% 
 } */
 
-.welcome-info { /* motsvarar form element */
+.welcome-info {
+  /* motsvarar form element */
   /* margin: 20px; */
   /* max-width: 40%; */
   height: 30%;
@@ -198,7 +200,7 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
   display: flex;
   justify-content: center;
   align-items: center;
-  list-style-type:none;
+  list-style-type: none;
   margin-bottom: 1rem;
   /* font-size: 1rem; */
 }

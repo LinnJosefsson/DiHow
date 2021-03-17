@@ -6,6 +6,7 @@ footer {
   min-height: fit-content;
   background-color: #b4c1c9;
   font-family: "Lato", Arial, Helvetica, sans-serif;
+  padding-bottom: 40px;
 }
 
 .footer-info {

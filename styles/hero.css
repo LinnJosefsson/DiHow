@@ -13,7 +13,7 @@
 .hero-container {
   /* display: flex; */
   /* flex-direction: column; */
-  position:relative;
+  position: relative;
   /* text-align: center; */
   width: 100vw;
   scroll-snap-align: start;
@@ -21,17 +21,16 @@
 }
 
 .hero-content {
-  display: flex; 
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   z-index: 9;
-  background-color: #b4c1c9;
-  opacity: 0.8;
+  background-color: #b4c1c9dd;
   max-width: 60%;
   position: absolute;
   top: 20%;
-  left: 20%; 
+  left: 20%;
 }
 
 .logo {
@@ -45,7 +44,6 @@
 .arrow-animation {
   width: 50px;
   animation: bounce 2.5s infinite;
-  
 }
 
 .arrow-animation:active {
@@ -53,7 +51,11 @@
 }
 
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     transform: translateY(0);
   }
   40% {
