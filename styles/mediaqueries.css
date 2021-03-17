@@ -91,19 +91,20 @@
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 500px) {
   p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     line-height: 2rem;
+    /* font-weight: 300; */
+  }
+
+  .welcome-info p {
+    /* max-width: 420px; */
+    /* font-size: 2rem; */
+    /* line-height: 2rem;  */
   }
 }
-/* DESKTOP FOOTER
--------------------------------------------------*/
-/* @media screen and (min-width:800px) {
-  footer {
-    
-  }
-} */
+
 
 /* DESKTOP WELCOME, BIGGER PAPER RIGHT IMG */
 /* @media screen and (min-width: 400) {
@@ -119,73 +120,79 @@
 
 /* HAMMER on Welcome 
 ------------------------------------------- */
- @media screen and (min-width: 768px) {
-  #hammer {
-    /* max-width: 18%;
-    opacity: 1; */
-    /* margin-top: 2rem; */
-    /* margin: 2rem; */
-    position: relative;
-    top: 5rem;
-  }
-} 
+#hammer {
+  width: 25%;
+  height: 80%;
+  opacity: 1;
+  margin: 2rem 6rem;
+}
+ 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 340px) {
  #hammer {
    display: none;
  }
 } 
-@media screen and (min-width: 500) {
-  .paper-right-div {
-    /* display: flex;
-    justify-content: flex-end;
-    text-align: center; */
-    max-width: 90%;
-    height: 600px;
-    /* right: 0;
-    position: absolute;
-    overflow: hidden; */
+
+@media screen and (min-width: 350px) {
+  .container-text {
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
   }
 
-  .paper-right {
-    justify-content: flex-end;
-    text-align: justify;
-    max-width: 80%;
-    /* height: 100vh;  */
-    height: 80vh; 
+  #hammer {
+    max-width: 80px;
+    margin: 1rem;
   }
-  .welcome-info { /* motsvarar form element */
-    margin:0;
-    padding-top: 6rem;
-    max-width: 10%;
-    /*height: 80%; */
+} 
+
+@media screen and (min-width: 450) {
+  .container-text {
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .welcome-info {
+    padding: 4rem;
+    max-width: 300px;
+    /* font-size: 2rem;
+    line-height: 2rem; */
   }
 }
 
-@media screen and (min-width: 700px) {
-  .paper-right-div {
-    /* display: flex;
-    justify-content: flex-end;
-    text-align: center; */
-    max-width: 90%;
-    height: 600px;
-    /* right: 0;
-    position: absolute;
-    overflow: hidden; */
+@media screen and (min-width: 800px) {
+  #hammer {
+    max-width: 20%;
+    /* margin-top: 2rem; */
+    margin: 4rem;
+    position: relative;
+    /* top: 5rem; */
   }
 
-  .paper-right {
-    justify-content: flex-end;
-    text-align: justify;
-    max-width: 80%;
-    height: 80vh; /* 500px  */
-  }
-
-  .welcome-info { /* motsvarar form element */
-    margin:0;
-    padding-top: 7rem;
-    padding-right: 4rem;
-    /* max-width: 40%;
-    height: 80%; */
+  .welcome-info {
+    padding: 4rem;
+    max-width: 600px;
+    /* font-size: 2rem;
+    line-height: 2rem; */
   }
 } 
+
+@media screen and (min-width: 1100px) {
+  #hammer {
+    max-width: 20%;
+    /* margin-top: 2rem; */
+    margin-left: 5rem;
+    /* position: relative; */
+    /* top: 5rem; */
+  }
+
+  .welcome-info {
+    padding: 4rem;
+    max-width: 900px;
+    /* font-size: 2rem;
+    line-height: 2rem; */
+  }
+} 
+

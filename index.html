@@ -100,66 +100,67 @@
     <main>
       <!-- WELCOME SECTION -->
       <a id="welcome"></a>
+      <section aria-roledescription="Welcome and info" class="container">
+        <!-- <div class="container"> -->
+          <picture>
+            <source
+              srcset="/assets/img/room-2/room2_1920.png"
+              media="(min-width: 900px)" alt="animated image of a living room"
+              class="room-img"
+            />
+            <source
+              srcset="/assets/img/room-2/room2_mobile_800.png"
+              media="(min-width: 700px)" alt="animated image of a living room"
+              class="room-img"
+            />
+            <source
+              srcset="/assets/img/room-2/room2_mobile_700.png"
+              media="(min-width: 400px)" alt="animated image of a living room"
+              class="room-img"
+            />
+            <img
+              src="/assets/img/room-2/room2_mobile_370.png"
+              class="room-img"
+              alt="animated image of a living room"
+            />
+          </picture>
 
-      <section class="welcome">
-        <div class="container">
-
-        <picture>
-          <source
-            srcset="/assets/img/room-2/room2_1920.png"
-            media="(min-width: 900px)" 
-          />
-          <source
-            srcset="/assets/img/room-2/room2_mobile_800.png"
-            media="(min-width: 700px)" 
-          />
-          <source
-            srcset="/assets/img/room-2/room2_mobile_700.png"
-            media="(min-width: 400px)" 
-          />
-          <img
-            src="/assets/img/room-2/room2_mobile_370.png"
-            class="room-img"
-            alt="animated image of a living room"
-          />
-        </picture>
-
-        <div class="paper-right">
-          <div data-aos="fade-left">
-          
-          <img src="/assets/svg/paper_right.svg" alt="a piece of blue paper with torn edges"  />
-
-          <div class="container-text">
-
-              <img src="/assets/svg/rakhammer.svg" alt="animated hammer">
-            
-              <div class="welcome-info">
-              <h1>Welcome</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-                itaque sunt velit neque, quos expedita. Deleniti inventore ipsa
-                odio, perspiciatis, velit perferendis quidem veniam placeat
-                dolorum aperiam voluptas sed minus. 
-              </p>
+          <div class="paper-right-div">
+            <div data-aos="fade-left">
+                <picture>
+                  <source
+                    srcset="/assets/svg/paper_right.svg"
+                    media="(min-width: 900px)"
+                    class="paper-right"
+                  />
+                  <img src="/assets/svg/paper_right_mobile2.svg" alt="a piece of blue paper with torn edges" class="paper-right" />
+                </picture>
+            <!-- <img src="assets/img/hammer.svg" width="100px;" class="test" /> -->
+              <div class="container-text">
+                  <img src="/assets/svg/rakhammer.svg" alt="animated hammer" id="hammer">          
+                <!-- <img src="/assets/svg/hammer.svg" alt="animated hammer"> -->              
+                  <div class="welcome-info">
+                  <h1>Hallå, <span>~namn~</span></h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+                    itaque sunt velit neque, quos expedita. Deleniti inventore ipsa
+                    odio, perspiciatis.                
+                  </p>
+                </div>
             </div>
-        </div>
-          </div>
-        </div>
-      </div>
+        </div>          
+      <!-- </div> -->
       </section>
 
       <!-- PROGRAM SECTION -->
       <a id="program"></a>
           
-      <section class="program">
-  
+      <section name="Program" class="program">
         <div class="program-container">
-         
-            <img src="/assets/svg/big_paper_2.svg" class="room-img" alt="big piece of blue paper with torn edges" />
+          <img src="/assets/svg/big_paper_2.svg" class="room-img" alt="big piece of blue paper with torn edges" />
 
           <div class="program-content">
             <div class data-aos="fade-up">
-
               <h1>Program</h1>
               <h2> Några av de många intressanta programpunkter ni kan ta del av under dagen </h2>
               <br>
@@ -171,54 +172,30 @@
               </ul>
             </div>           
           </div>
-          </div>          
+        </div>          
       </section>
 
       <!-- RSVP SECTION -->
       <a id="rsvp"></a>
-      <section class="rsvp">
-      <div class="container">
-        <picture>
-          <source
-            srcset="/assets/img/room-3/room3_1920.png"
-            media="(min-width: 900px)" 
-            class="room-img"
-          />
-
-          <source
-            srcset="/assets/img/room-3/room3_mobile_800.png"
-            media="(min-width: 700px)" 
-            class="room-img"
-          />
-
-          <source
-            srcset="/assets/img/room-3/room3_mobile_480.png"
-            media="(min-width: 400px)" 
-            class="room-img"
-          />
-
-          <img
-            src="/assets/img/room-3/room3_mobile_370.png"
-            class="room-img"
-            alt="animated image of a bathroom"
-          />
-        </picture>
+      <section class="container">
+          <picture>
+            <source srcset="/assets/img/room-3/room3_1920.png" media="(min-width: 900px)" alt="animated image of a bathroom" class="room-img"/>
+            <source srcset="/assets/img/room-3/room3_mobile_800.png" media="(min-width: 700px)" alt="animated image of a bathroom" class="room-img"/>
+            <source srcset="/assets/img/room-3/room3_mobile_480.png" media="(min-width: 400px)" alt="animated image of a bathroom" class="room-img"/>
+            <img  src="/assets/img/room-3/room3_mobile_370.png" class="room-img" alt="animated image of a bathroom"/>
+          </picture>
 
         <div class="paper-left">          
           <div class data-aos="fade-right">
-          <img 
-            src="/assets/svg/paper_left_mobile.svg"
-            alt="a piece of blue paper with torn edges"
-          />
+          <img src="/assets/svg/paper_left_mobile.svg"alt="a piece of blue paper with torn edges"/>
 
-          <div class="form-container">
-            
+          <div class="form-container">            
             <h1 id="msg1">RSVP</h1>
               <p id="msg2">Anmäl dig nedan för att säkra din plats</p>
               <form class="rsvp-form">
                 <img src="/assets/svg/hammer.svg" alt="animated paintbrush" class="rsvp-icon" />
-                
                 <img src="/assets/svg/paintbrush.svg" alt="animated paintbrush" />
+
                 <label for="name">För- och efternamn</label>
                 <input type="text" placeholder="Lisa Larsson" class="f-name"/>
                 <!-- namn redan finnas via jquery?? -->
@@ -229,13 +206,10 @@
                 <label for="phonenumber">Mobilnummer (valfritt)</label>
                 <input type="text" placeholder="Endast siffror"/>
                 
-                <div class="rsvp-btn">
-                  <button class="btn-animation">Boka</button></div>
+                <div class="rsvp-btn"><button class="btn-animation">Boka</button></div>
               </form>
             </div>
           </div>
-        </div>
-      </div>
       </section>
     </main>
 

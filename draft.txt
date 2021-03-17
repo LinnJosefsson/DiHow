@@ -1,0 +1,91 @@
+/* 
+@media screen and (min-width: 500) {
+  .paper-right-div {
+    /* display: flex;
+    justify-content: flex-end;
+    text-align: center; */
+    /* max-width: 90%; */
+    /* height: 800px; */
+    /* right: 0;
+    position: absolute;
+    overflow: hidden; 
+  }
+
+  .paper-right {
+    /* justify-content: flex-end;
+    text-align: justify; */
+    /* max-width: 80%; */
+    /* height: 100vh;  
+    height: 100%; 
+  }
+  .welcome-info { /* motsvarar form element */
+    /* margin:0;
+    padding-top: 15rem;
+    max-width: 10%; */
+    /*height: 80%; 
+  }
+} */
+
+/* @media screen and (min-width: 700px) {
+  .paper-right-div {
+    /* display: flex;
+    justify-content: flex-end;
+    text-align: center; */
+    /* max-width: 90%;
+    height: 600px; */
+    /* right: 0;
+    position: absolute;
+    overflow: hidden; 
+  }
+
+  .paper-right {
+    /* justify-content: flex-end;
+    text-align: justify;
+    max-width: 80%; */
+    /* height: 80vh; 500px  
+  }
+
+  .welcome-info { /* motsvarar form element */
+    /* margin:0;
+    padding-top: 7rem;
+    padding-right: 4rem; */
+    /* max-width: 40%;
+    height: 80%; 
+  }
+}  */
+/* 
+@media screen and (min-width: 900px) {
+  .paper-right-div {
+    /* display: flex;
+    justify-content: flex-end;
+    text-align: center; */
+    /* max-width: 100%; */
+    /* height: 60vh;  */
+    /* right: 0;
+    position: absolute;
+    overflow: hidden; 
+  }
+
+  .paper-right {
+    /* justify-content: flex-end;
+    text-align: justify;
+    min-width: 800px;
+    height: 400px; 500px  
+  }
+
+  .welcome-info { /* motsvarar form element */
+    /* margin:0;
+    padding-top: 7rem;
+    padding-right: 4rem; */
+    /* max-width: 40%;
+    height: 80%; 
+  }
+}  */
+
+/* DESKTOP FOOTER
+-------------------------------------------------*/
+/* @media screen and (min-width:800px) {
+  footer {
+    
+  }
+} */
