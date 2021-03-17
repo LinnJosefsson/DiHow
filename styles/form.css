@@ -1,9 +1,18 @@
+.rsvp-container {
+  /* justify-content: flex-end; */
+  /*  align-items: center; */
+  position: relative;
+  width: 100vw;
+  overflow: hidden;
+  height: 100vh;
+}
+
 .paper-left {
   display: flex;
   justify-content: flex-start;
   /* text-align: center; */
   max-width: 100%;
-  height: 70vh;
+  height: 50vh;
   left: 0;
   position: absolute;
   /* overflow: hidden; */
@@ -61,12 +70,12 @@
 }
 
 .rsvp-btn {
-border-radius: 5px;
+  border-radius: 5px;
   padding: 10px;
   text-decoration: none;
-  margin-top: 10px; 
+  margin-top: 10px;
   margin-left: 25%;
-} 
+}
 
 .rsvp-btn:active {
   transform: translate(0px, 5px);
@@ -77,19 +86,18 @@ border-radius: 5px;
   background-color: var(--ikea-blue);
   width: 5rem;
   font-size: 1rem;
-  letter-spacing: .9px;
+  letter-spacing: 0.9px;
   height: 2rem;
   border: none;
   box-shadow: 1px 1px 1px #888888;
   border-radius: 25px;
-  transition: all .7s ease;
+  transition: all 0.7s ease;
   transform: scale(1);
   color: white;
-
 }
 
 .btn-animation:hover {
-  transform: scale(1.2) perspective(.5px);
+  transform: scale(1.2) perspective(0.5px);
   background-color: var(--ikea-yellow);
   color: var(--ikea-blue);
   font-family: "Junior";
@@ -99,4 +107,3 @@ border-radius: 5px;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-
