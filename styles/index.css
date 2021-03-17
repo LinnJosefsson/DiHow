@@ -34,7 +34,7 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
 
 /* fd welcome-container */
 .container {
-  /*   display: flex; */
+  display: flex;
   /* justify-content: flex-end; */
   align-items: center;
   position: relative;
