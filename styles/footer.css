@@ -26,6 +26,7 @@ footer h1 {
 
 .copyright p {
   font-size: 0.8rem;
+  margin-bottom: 50px;
 }
 
 /* borde gå utan att göra två class?*/
