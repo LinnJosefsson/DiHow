@@ -33,7 +33,7 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
 } */
 
 /* fd welcome-container */
-.container {
+.welcome-container {
   display: flex;
   /* justify-content: flex-end; */
   align-items: center;
@@ -225,10 +225,5 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
   left: 0px;
   opacity: 1;
 }
-
-/*
-.rsvp-content {
-  font size etc
-}*/
 
 /*# sourceMappingURL=styles.f2f7eaee.css.map */
