@@ -46,6 +46,9 @@ p {
   /* line-height: 27px; */
 }
 
+a {
+  text-decoration: none;
+}
 
 :root {
     --ikea-blue: rgb(35, 91, 157);
