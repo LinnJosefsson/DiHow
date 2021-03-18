@@ -132,7 +132,7 @@
                   <img src="/assets/svg/rakhammer.svg" alt="animated hammer" id="hammer">          
                 <!-- <img src="/assets/svg/hammer.svg" alt="animated hammer"> -->              
                   <div class="welcome-info">
-                  <h1>Hallå, <span>~namn~</span></h1>
+                    <h1>Hallå, <span id="guest">Skapare</span></h1>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
                     itaque sunt velit neque, quos expedita. Deleniti inventore ipsa
@@ -162,12 +162,9 @@
                 <li>Prova på att hantera olika verktyg</li>
                 <li>Föreläsning: Välja Hållbara Material</li>
               </ul>
-              <h2>Utvalt för Dig</h2>
-              <ul>
-                <li>Printa med JS i query-fil?</li>
-                <li>Printa med JS i query-fil?</li>
-                <li>Printa med JS i query-fil?</li>
-              </ul>
+              <h2 id="spec-1">Utvalt för Dig</h2>
+              <ul id="spec-2">
+                <li id="spec-3"></li>
             </div>           
           </div>
         </div>          
@@ -195,8 +192,7 @@
                 <img src="/assets/svg/paintbrush.svg" alt="animated paintbrush" />
 
                 <label for="name">För- och efternamn</label>
-                <input type="text" placeholder="Lisa Larsson" class="f-name"/>
-                <!-- namn redan finnas via jquery?? -->
+                <input type="text" required placeholder="Lisa Larsson" class="f-name"/>
                 
                 <label for="email">Email</label>
                 <input type="email" required placeholder="lisa.larsson@gmail.com" class="f-email"/>
@@ -237,5 +233,6 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script> AOS.init(); </script>
     <script src="app.js"></script>
+    <script src="query.js"></script>
   </body>
 </html>

@@ -28,6 +28,7 @@
   z-index: 9;
   background-color: #b4c1c9d2;
   max-width: 60%;
+  height: 50vh;
   position: absolute;
   top: 20%;
   left: 20%;
@@ -39,6 +40,11 @@
 
 .hero-content img {
   opacity: 1;
+}
+
+.hero-content h1 {
+  padding: 1rem;
+  /* font-size: 3rem; */
 }
 
 /* .hero-content a {
