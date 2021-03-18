@@ -99,6 +99,13 @@
   }
 }
 
+@media screen and (min-width: 600px) {
+  .header-content h1 {
+    font-size: 4rem;
+    padding-top: 3rem;
+  }
+}
+
 @media screen and (min-width: 500px) {
   p {
     font-size: 1.5rem;
