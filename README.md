@@ -4,12 +4,21 @@ Web Event Invitation for a DIY themed event hosted by IKEA.
 
 Hosted on Netlify: https://dihow.netlify.app/
 
+We personalized the page with the guests first name and a special item 
+in the program, depending on if they live in a house or flat.
+Example link: https://dihow.netlify.app/?id=1 
+
 Project is built using:
 - HTML, CSS, Javascript
 - Parcel & Prettier
 
+### Creators
+Linn Josefsson (WU)
+Sandra Danielsson (WU)
+Fanny Alvermalm (IP)
 
-### Code Review
+
+### Code Review by Amanda Fager
 - You could wrap the hamburger/nav in a class with transition none and remove the class after page load to prevent the menu to pop up on reload.
 - Remove comments in css if it's not code that you will use. 
 - Use only one H1, in the code you have three.  
