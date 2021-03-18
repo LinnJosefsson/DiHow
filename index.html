@@ -19,7 +19,7 @@
   <body>
     <div class="fade-in">
     <header>
-      <a href="/"><h1 id="header-title">Do It How</h1></a>
+      <a href="/"><h1 id="header-title">D I How</h1></a>
       <input id="menu" type="checkbox" />
       <label for="menu">
         <nav class="menu">
@@ -159,6 +159,7 @@
                 <li>Prova på att hantera olika verktyg</li>
                 <li>Föreläsning: Välja Hållbara Material</li>
               </ul>
+              <br>
               <h2 id="spec-1">Utvalt för Dig</h2>
               <ul id="spec-2">
                 <li id="spec-3"></li>
@@ -179,8 +180,14 @@
 
         <div class="paper-left">          
           <div class data-aos="fade-right">
-          <img src="/assets/svg/paper_left_mobile.svg"alt="a piece of blue paper with torn edges"/>
-
+            <picture>
+              <source
+                srcset="/assets/svg/paper_left.svg"
+                media="(min-width: 700px)"
+                class="paper-left"
+              />
+              <img src="/assets/svg/paper_left_mobile.svg" alt="a piece of blue paper with torn edges" class="paper-right" />
+            </picture>
           <div class="form-container">            
             <h1 id="msg1">ANMÄLAN</h1>
               <p id="msg2">Anmäl dig nedan för att säkra din plats</p>
@@ -196,7 +203,11 @@
                 
                 <label for="phonenumber">Mobilnummer (valfritt)</label>
                 <input type="text" placeholder="Endast siffror"/>
-                
+
+                <div class="terms">
+                  <input type="checkbox" required/>
+                 <label for="terms-conditions">Jag godkänner <a>bokningsvillkoren</a></label>
+              </div>
                 <div class="rsvp-btn"><button class="btn-animation">Boka</button></div>
               </form>
             </div>

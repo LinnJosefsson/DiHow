@@ -11,10 +11,7 @@
 }
 
 .hero-container {
-  /* display: flex; */
-  /* flex-direction: column; */
   position: relative;
-  /* text-align: center; */
   width: 100vw;
   scroll-snap-align: start;
   height: 100vh;
@@ -27,11 +24,12 @@
   align-items: center;
   z-index: 9;
   background-color: #b4c1c9d2;
-  max-width: 60%;
-  height: 50vh;
+  max-width: 50%;
+  height: 60vh;
   position: absolute;
-  top: 20%;
-  left: 20%;
+  top: 25%;
+  left: 25%;
+  padding: 2rem;
 }
 
 .logo {
@@ -44,7 +42,7 @@
 
 .hero-content h1 {
   padding: 1rem;
-  /* font-size: 3rem; */
+  font-size: 4rem;
 }
 
 /* .hero-content a {

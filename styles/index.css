@@ -9,6 +9,9 @@ body {
   scroll-snap-type: y; /* mandatory is bad-ish a11y, not available on Brave */
 }
 
+main {
+  scroll-snap-align: start;
+}
 .fade-in {
   opacity: 0;
   left: -100%;

@@ -64,9 +64,19 @@
   }
 }
 @media screen and (min-width: 1024px) {
-  .form-container img {
-    left: 220px;
+  .paper-left {
+    justify-content: space-around;
   }
+  .paper-left img {
+    max-width: 80vw;
+    left: 0;
+    
+  }
+  .form-container img {
+    margin-left: 7rem;
+    min-width: 150px;
+  }
+
 }
 @media screen and (max-width: 820px) {
   .form-container img {
@@ -96,7 +106,7 @@
   }
 }
 
-/* HAMMER on Welcome 
+/* HAMMER and Welcome Content
 ------------------------------------------- */
 #hammer {
   width: 25%;

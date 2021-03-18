@@ -7,7 +7,6 @@
 
 html {
   width: 100vw;
-  
 }
 
 @font-face {
@@ -28,7 +27,6 @@ html {
 h1 {
   font-family: "Bebas Neue";
   font-size: 8vh;
-  /* margin-bottom: 1rem; */
   color: var(--ikea-blue);
   line-height: 4rem;
 }
@@ -43,7 +41,6 @@ p {
   font-family: "Lato", "Gill Sans", Calibri, sans-serif;
   color: black;
   font-size: 20px;
-  /* line-height: 27px; */
 }
 
 a {
@@ -51,8 +48,8 @@ a {
 }
 
 :root {
-    --ikea-blue: rgb(35, 91, 157);
-    --ikea-yellow: rgba(255, 218, 26, 0.753);
-} 
+  --ikea-blue: rgb(35, 91, 157);
+  --ikea-yellow: rgba(255, 218, 26, 0.753);
+}
 
 /*# sourceMappingURL=global.d0e7ed25.css.map */

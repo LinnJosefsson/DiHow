@@ -9,6 +9,9 @@ body {
   scroll-snap-type: y; /* mandatory is bad-ish a11y, not available on Brave */
 }
 
+main {
+  scroll-snap-align: start;
+}
 .fade-in {
   opacity: 0;
   left: -100%;
@@ -21,18 +24,7 @@ body {
 }
 
 /* WELCOME */
-/* .welcome {
-  display: flex;
-  height: 100vh;
-} */
 
-/* vill försöka ge sidan en max-width för stora skärmar så bilder inte blir
-blurriga. Behöver sätta max-width på en/flera? parent-element och width i % på children */
-/* main {
-  max-width: 500px;
-} */
-
-/* fd welcome-container */
 .welcome-container {
   display: flex;
   /* justify-content: flex-end; */
@@ -44,21 +36,6 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
 }
 
 .paper-right-div {
-  /* display: flex;
-  justify-content: flex-end;
-  /* text-align: center; */
-  /* max-width: 100%; */
-  /* height: 400px; */
-  /* right: 0;
-  top: 2rem;
-  position: absolute; */
-  /* overflow: hidden; */
-  /* opacity: 0.9; */
-  /* z-index: 1; */
-  /*  top: 15%; */
-  /* right: 0px; */
-
-  /* paper left (div) */
   display: flex;
   justify-content: flex-start;
   text-align: center;
@@ -70,19 +47,6 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
 }
 
 .paper-right {
-  /* display: flex;
-  justify-content: flex-end;
-  text-align: center;
-  max-width: 1000px;
-  height: 80vh;
-  right: 0;
-  position: absolute;
-  opacity: 0.8;
-  align-items: start; */
-  /*   max-height: 400px;
-  max-width: 90%; */
-
-  /* Paper Left (img) */
   display: flex;
   position: absolute;
   right: 0;
@@ -90,62 +54,21 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
   opacity: 0.9;
 }
 
-/* .paper-right img {
-  display: flex;
-  position: absolute;
-  right: 0;
-  opacity: 0.8;
-  max-height: 85%;
-  max-width: 100%;
-} */
-
 .container-text {
-  /* motsvarar .form-container */
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-around;
   text-align: center;
-  /* align-items: end; */
   position: relative;
   width: 100%;
-  /* margin: 0 auto; */
-  /*   width: 70%; */
-  /*   text-align: center; */
-  /*  padding: 30px; */
-  /* align-items: flex-end; */
-  /* flex-direction: row; */
   opacity: 1;
   padding: 2.5rem;
 }
 
-/* HAMMER on Welcome  */
-/* #hammer {
-  width: 18;
-  max-width: 80px;
-  height: 80%;
-  opacity: 1; */
-/* margin-top: 2rem; */
-/* position: absolute;
-  top: 4rem;
-  left: 20% 
-} */
-
 .welcome-info {
-  /* motsvarar form element */
-  /* margin: 20px; */
-  /* max-width: 40%; */
   height: 30%;
   padding-top: 1rem;
-  /* padding-right: 2rem; */
-  /* position: absolute; */
-  /* top: 0; */
 }
-
-/* .aos-init .aos-animate {
-  display: flex;
-  align-items: flex-end;
-  right: 10px;
-} */
 
 /* Fullpage Room bg images */
 .room-img {
@@ -155,11 +78,6 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
   bottom: 0;
   object-fit: cover;
 }
-
-/* .room-3 {
-  height: 100vh;
-  width: 100%;
-} */
 
 /* PROGRAM */
 .program {
@@ -175,20 +93,13 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
 .program-container {
   position: relative;
   display: flex;
-  /*   justify-content: center; */
-  /* flex-direction: row; */
-  /* justify-content: center; */
   align-items: center;
-  /*   align-items: center; */
   text-align: center;
-  /* overflow: hidden; */
 }
 
 .program-content {
   position: absolute;
-  /*  display: flex; */
   justify-content: center;
-  /* align-items: center; */
   padding: 3rem;
   width: 100vw;
 }
@@ -202,13 +113,7 @@ blurriga. Behöver sätta max-width på en/flera? parent-element och width i % p
   align-items: center;
   list-style-type: none;
   margin-bottom: 1rem;
-  /* font-size: 1rem; */
 }
-
-/* .program-content h2 {
-  font-family: "Bebas Neue";
-  font-weight: 500;
-} */
 
 /* RSVP (form styling in form.css) */
 
