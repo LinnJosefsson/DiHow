@@ -1,4 +1,6 @@
 # DiHow
+![Room_panorama](https://user-images.githubusercontent.com/70546259/111687162-3f7b9600-882a-11eb-98fb-2f054b6b6fed.png)
+
 
 Web Event Invitation for a DIY themed event hosted by IKEA.
 
@@ -13,9 +15,9 @@ Project is built using:
 - Parcel & Prettier
 
 ### Creators
-Linn Josefsson (WU)
-Sandra Danielsson (WU)
-Fanny Alvermalm (IP)
+- Linn Josefsson (WU)
+- Sandra Danielsson (WU)
+- Fanny Alvermalm (IP)
 
 
 ### Code Review by Amanda Fager
