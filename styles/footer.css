@@ -31,14 +31,14 @@ footer h1 {
 
 /* borde gå utan att göra två class?*/
 .footer-left {
-  display: flex;
+  display: inline-block;
   flex-direction: column;
   justify-content: center;
   list-style-type: none;
 }
 
 .footer-right {
-  display: flex;
+  display: inline-block;
   flex-direction: column;
   justify-content: center;
   list-style-type: none;
