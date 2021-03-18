@@ -29,7 +29,6 @@ footer h1 {
   margin-bottom: 60px;
 }
 
-/* borde gå utan att göra två class?*/
 .footer-left {
   display: inline-block;
   flex-direction: column;

@@ -25,9 +25,6 @@
     position: absolute;
     top: 15%;
     right: 3rem;
-
-    /* Turn Pink to see where you can click  */
-    /* background-color: violet; */
   }
 
   header h1 {
@@ -43,9 +40,6 @@
     height: 50px;
     background: none;
     border: 0;
-    /* position: absolute;
-    top: 15%;
-    right: 3rem; */
     z-index: 11;
     pointer-events: none;
   }
@@ -95,27 +89,8 @@
   p {
     font-size: 1.5rem;
     line-height: 2rem;
-    /* font-weight: 300; */
   }
-
-  /* .welcome-info p {
-    max-width: 420px; 
-    font-size: 2rem;
-    line-height: 2rem; 
-  } */
 }
-
-/* DESKTOP WELCOME, BIGGER PAPER RIGHT IMG */
-/* @media screen and (min-width: 400) {
-  #hammer {
-    display: flex;
-    max-width: 18%;
-    opacity: 1;
-    margin-top: 30px;
-    margin-left: 70px;
-    position: relative;
-  }
-} */
 
 /* HAMMER on Welcome 
 ------------------------------------------- */
@@ -155,41 +130,31 @@
   .welcome-info {
     padding: 4rem;
     max-width: 300px;
-    /* font-size: 2rem;
-    line-height: 2rem; */
   }
 }
 
 @media screen and (min-width: 800px) {
   #hammer {
     max-width: 20%;
-    /* margin-top: 2rem; */
     margin: 4rem;
     position: relative;
-    /* top: 5rem; */
   }
 
   .welcome-info {
     padding: 4rem;
     max-width: 600px;
-    /* font-size: 2rem;
-    line-height: 2rem; */
   }
 }
 
 @media screen and (min-width: 1100px) {
   #hammer {
     max-width: 13%;
-    /* margin-top: 2rem; */
     margin-left: 5rem;
-    /* position: relative; */
     top: -2rem;
   }
 
   .welcome-info {
     padding: 4rem;
     max-width: 900px;
-    /* font-size: 2rem;
-    line-height: 2rem; */
   }
 }

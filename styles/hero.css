@@ -11,10 +11,7 @@
 }
 
 .hero-container {
-  /* display: flex; */
-  /* flex-direction: column; */
   position: relative;
-  /* text-align: center; */
   width: 100vw;
   scroll-snap-align: start;
   height: 100vh;
@@ -40,10 +37,6 @@
 .hero-content img {
   opacity: 1;
 }
-
-/* .hero-content a {
-  background-color: blueviolet;
-} */
 
 .arrow-animation {
   width: 50px;
