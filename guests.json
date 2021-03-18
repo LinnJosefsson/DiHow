@@ -1,0 +1,28 @@
+{
+    "guests": [
+        {
+        "firstname": "admin", 
+         "building": "none"
+        },
+        {
+         "firstname": "Linn", 
+         "building": "house"
+        },
+        {
+            "firstname": "Ellen", 
+            "building": "flat"
+        }, 
+        {"firstname": "Fanny", 
+        "building": "house"
+         },
+        
+         {
+            "firstname": "Sarah", 
+            "building": "house"
+         },
+         {
+            "firstname": "Evelina", 
+            "building": "flat"
+         }
+    ]
+}
